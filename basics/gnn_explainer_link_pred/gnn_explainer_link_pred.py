@@ -10,7 +10,7 @@ from torch_geometric.explain import Explainer, GNNExplainer, ModelConfig
 from torch_geometric.nn import GCNConv
 
 dataset = 'Cora'
-path = osp.join(osp.dirname(osp.realpath(__file__)), '../..', 'data', 'Planetoid')
+path = osp.join(osp.dirname(osp.realpath(__file__)), '..', 'data', 'Planetoid')
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 transform = T.Compose([
     T.NormalizeFeatures(),
