@@ -1,0 +1,3569 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns
+         http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+<!-- Created by igraph -->
+  <key id="v_geocode" for="node" attr.name="geocode" attr.type="string"/>
+  <key id="v_name" for="node" attr.name="name" attr.type="string"/>
+  <key id="v_NOMEMUN" for="node" attr.name="NOMEMUN" attr.type="string"/>
+  <key id="v_HURB" for="node" attr.name="HURB" attr.type="double"/>
+  <key id="v_LONG" for="node" attr.name="LONG" attr.type="double"/>
+  <key id="v_LATI" for="node" attr.name="LATI" attr.type="double"/>
+  <key id="e_id" for="edge" attr.name="id" attr.type="double"/>
+  <key id="e_MINCOST" for="edge" attr.name="MINCOST" attr.type="double"/>
+  <key id="e_MINTIME" for="edge" attr.name="MINTIME" attr.type="double"/>
+  <key id="e_weight" for="edge" attr.name="weight" attr.type="double"/>
+  <graph id="G" edgedefault="directed">
+    <node id="n0">
+      <data key="v_geocode">1302603</data>
+      <data key="v_name">1302603</data>
+      <data key="v_NOMEMUN">Manaus</data>
+      <data key="v_HURB">85</data>
+      <data key="v_LONG">-60.0233351809</data>
+      <data key="v_LATI">-3.13469149092</data>
+    </node>
+    <node id="n1">
+      <data key="v_geocode">1304260</data>
+      <data key="v_name">1304260</data>
+      <data key="v_NOMEMUN">Uarini</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-65.1553456405</data>
+      <data key="v_LATI">-2.98360924257</data>
+    </node>
+    <node id="n2">
+      <data key="v_geocode">1302108</data>
+      <data key="v_name">1302108</data>
+      <data key="v_NOMEMUN">Japurá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-66.9969034948</data>
+      <data key="v_LATI">-1.8808448583</data>
+    </node>
+    <node id="n3">
+      <data key="v_geocode">1300029</data>
+      <data key="v_name">1300029</data>
+      <data key="v_NOMEMUN">Alvarães</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-64.813534678</data>
+      <data key="v_LATI">-3.21658376903</data>
+    </node>
+    <node id="n4">
+      <data key="v_geocode">1301308</data>
+      <data key="v_name">1301308</data>
+      <data key="v_NOMEMUN">Codajás</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-62.0634296607</data>
+      <data key="v_LATI">-3.84304593232</data>
+    </node>
+    <node id="n5">
+      <data key="v_geocode">1300300</data>
+      <data key="v_name">1300300</data>
+      <data key="v_NOMEMUN">Autazes</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-59.1335670915</data>
+      <data key="v_LATI">-3.57866364191</data>
+    </node>
+    <node id="n6">
+      <data key="v_geocode">1300805</data>
+      <data key="v_name">1300805</data>
+      <data key="v_NOMEMUN">Borba</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-59.5945590193</data>
+      <data key="v_LATI">-4.39061989129</data>
+    </node>
+    <node id="n7">
+      <data key="v_geocode">1503903</data>
+      <data key="v_name">1503903</data>
+      <data key="v_NOMEMUN">Juruti</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-56.0949976886</data>
+      <data key="v_LATI">-2.15525299503</data>
+    </node>
+    <node id="n8">
+      <data key="v_geocode">1504802</data>
+      <data key="v_name">1504802</data>
+      <data key="v_NOMEMUN">Monte Alegre</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-54.0733747261</data>
+      <data key="v_LATI">-2.00332800009</data>
+    </node>
+    <node id="n9">
+      <data key="v_geocode">1301902</data>
+      <data key="v_name">1301902</data>
+      <data key="v_NOMEMUN">Itacoatiara</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-58.4401754363</data>
+      <data key="v_LATI">-3.14037880354</data>
+    </node>
+    <node id="n10">
+      <data key="v_geocode">1501402</data>
+      <data key="v_name">1501402</data>
+      <data key="v_NOMEMUN">Belém</data>
+      <data key="v_HURB">80</data>
+      <data key="v_LONG">-48.4878256878</data>
+      <data key="v_LATI">-1.45984500045</data>
+    </node>
+    <node id="n11">
+      <data key="v_geocode">1501204</data>
+      <data key="v_name">1501204</data>
+      <data key="v_NOMEMUN">Baião</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.6727533735</data>
+      <data key="v_LATI">-2.79196186105</data>
+    </node>
+    <node id="n12">
+      <data key="v_geocode">1504604</data>
+      <data key="v_name">1504604</data>
+      <data key="v_NOMEMUN">Mocajuba</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.509023461</data>
+      <data key="v_LATI">-2.58287297291</data>
+    </node>
+    <node id="n13">
+      <data key="v_geocode">1502103</data>
+      <data key="v_name">1502103</data>
+      <data key="v_NOMEMUN">Cametá</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-49.4978301687</data>
+      <data key="v_LATI">-2.24683848001</data>
+    </node>
+    <node id="n14">
+      <data key="v_geocode">1501808</data>
+      <data key="v_name">1501808</data>
+      <data key="v_NOMEMUN">Breves</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-50.4808947995</data>
+      <data key="v_LATI">-1.69073650009</data>
+    </node>
+    <node id="n15">
+      <data key="v_geocode">1500503</data>
+      <data key="v_name">1500503</data>
+      <data key="v_NOMEMUN">Almeirim</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-52.5768350865</data>
+      <data key="v_LATI">-1.52733880254</data>
+    </node>
+    <node id="n16">
+      <data key="v_geocode">1302801</data>
+      <data key="v_name">1302801</data>
+      <data key="v_NOMEMUN">Maraã</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-65.5742837027</data>
+      <data key="v_LATI">-1.86643687736</data>
+    </node>
+    <node id="n17">
+      <data key="v_geocode">1506005</data>
+      <data key="v_name">1506005</data>
+      <data key="v_NOMEMUN">Prainha</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-53.4818139411</data>
+      <data key="v_LATI">-1.8056944999</data>
+    </node>
+    <node id="n18">
+      <data key="v_geocode">1301209</data>
+      <data key="v_name">1301209</data>
+      <data key="v_NOMEMUN">Coari</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-63.1421839845</data>
+      <data key="v_LATI">-4.08421915879</data>
+    </node>
+    <node id="n19">
+      <data key="v_geocode">1500404</data>
+      <data key="v_name">1500404</data>
+      <data key="v_NOMEMUN">Alenquer</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-54.7408623504</data>
+      <data key="v_LATI">-1.95139750469</data>
+    </node>
+    <node id="n20">
+      <data key="v_geocode">1503101</data>
+      <data key="v_name">1503101</data>
+      <data key="v_NOMEMUN">Gurupá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-51.6436957238</data>
+      <data key="v_LATI">-1.40491799997</data>
+    </node>
+    <node id="n21">
+      <data key="v_geocode">1303403</data>
+      <data key="v_name">1303403</data>
+      <data key="v_NOMEMUN">Parintins</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-56.7362921456</data>
+      <data key="v_LATI">-2.62705258571</data>
+    </node>
+    <node id="n22">
+      <data key="v_geocode">1507706</data>
+      <data key="v_name">1507706</data>
+      <data key="v_NOMEMUN">São Sebastião da Boa Vista</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.5323121743</data>
+      <data key="v_LATI">-1.71885049975</data>
+    </node>
+    <node id="n23">
+      <data key="v_geocode">1506807</data>
+      <data key="v_name">1506807</data>
+      <data key="v_NOMEMUN">Santarém</data>
+      <data key="v_HURB">1</data>
+      <data key="v_LONG">-54.7185701669</data>
+      <data key="v_LATI">-2.43621332958</data>
+    </node>
+    <node id="n24">
+      <data key="v_geocode">1300904</data>
+      <data key="v_name">1300904</data>
+      <data key="v_NOMEMUN">Canutama</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-64.3942308192</data>
+      <data key="v_LATI">-6.52910607548</data>
+    </node>
+    <node id="n25">
+      <data key="v_geocode">1505106</data>
+      <data key="v_name">1505106</data>
+      <data key="v_NOMEMUN">Óbidos</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-55.5163235095</data>
+      <data key="v_LATI">-1.90923549572</data>
+    </node>
+    <node id="n26">
+      <data key="v_geocode">1300631</data>
+      <data key="v_name">1300631</data>
+      <data key="v_NOMEMUN">Beruri</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-61.3715708918</data>
+      <data key="v_LATI">-3.89451340997</data>
+    </node>
+    <node id="n27">
+      <data key="v_geocode">1304104</data>
+      <data key="v_name">1304104</data>
+      <data key="v_NOMEMUN">Tapauá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-63.1870948675</data>
+      <data key="v_LATI">-5.6242235176</data>
+    </node>
+    <node id="n28">
+      <data key="v_geocode">1302405</data>
+      <data key="v_name">1302405</data>
+      <data key="v_NOMEMUN">Lábrea</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-64.7947730278</data>
+      <data key="v_LATI">-7.26194655339</data>
+    </node>
+    <node id="n29">
+      <data key="v_geocode">1500701</data>
+      <data key="v_name">1500701</data>
+      <data key="v_NOMEMUN">Anajás</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.945001041</data>
+      <data key="v_LATI">-0.984451394216</data>
+    </node>
+    <node id="n30">
+      <data key="v_geocode">1600279</data>
+      <data key="v_name">1600279</data>
+      <data key="v_NOMEMUN">Laranjal do Jari</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-52.5390207366</data>
+      <data key="v_LATI">-0.855664500416</data>
+    </node>
+    <node id="n31">
+      <data key="v_geocode">1600808</data>
+      <data key="v_name">1600808</data>
+      <data key="v_NOMEMUN">Vitória do Jari</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-52.4196147799</data>
+      <data key="v_LATI">-0.918977088122</data>
+    </node>
+    <node id="n32">
+      <data key="v_geocode">1301704</data>
+      <data key="v_name">1301704</data>
+      <data key="v_NOMEMUN">Humaitá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-63.0266980215</data>
+      <data key="v_LATI">-7.51222495062</data>
+    </node>
+    <node id="n33">
+      <data key="v_geocode">1505908</data>
+      <data key="v_name">1505908</data>
+      <data key="v_NOMEMUN">Porto de Moz</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-52.2424769191</data>
+      <data key="v_LATI">-1.74609008859</data>
+    </node>
+    <node id="n34">
+      <data key="v_geocode">1600303</data>
+      <data key="v_name">1600303</data>
+      <data key="v_NOMEMUN">Macapá</data>
+      <data key="v_HURB">70</data>
+      <data key="v_LONG">-51.057405457</data>
+      <data key="v_LATI">0.0389510102809</data>
+    </node>
+    <node id="n35">
+      <data key="v_geocode">1501303</data>
+      <data key="v_name">1501303</data>
+      <data key="v_NOMEMUN">Barcarena</data>
+      <data key="v_HURB">34</data>
+      <data key="v_LONG">-48.6270728922</data>
+      <data key="v_LATI">-1.50576700474</data>
+    </node>
+    <node id="n36">
+      <data key="v_geocode">1505205</data>
+      <data key="v_name">1505205</data>
+      <data key="v_NOMEMUN">Oeiras do Pará</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.8551061088</data>
+      <data key="v_LATI">-2.00473400017</data>
+    </node>
+    <node id="n37">
+      <data key="v_geocode">4315602</data>
+      <data key="v_name">4315602</data>
+      <data key="v_NOMEMUN">Rio Grande</data>
+      <data key="v_HURB">72</data>
+      <data key="v_LONG">-52.0867696994</data>
+      <data key="v_LATI">-32.0504457927</data>
+    </node>
+    <node id="n38">
+      <data key="v_geocode">4318507</data>
+      <data key="v_name">4318507</data>
+      <data key="v_NOMEMUN">São José do Norte</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-52.0342022717</data>
+      <data key="v_LATI">-32.0206091129</data>
+    </node>
+    <node id="n39">
+      <data key="v_geocode">1303106</data>
+      <data key="v_name">1303106</data>
+      <data key="v_NOMEMUN">Nova Olinda do Norte</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-59.0930740264</data>
+      <data key="v_LATI">-3.88759283184</data>
+    </node>
+    <node id="n40">
+      <data key="v_geocode">1100205</data>
+      <data key="v_name">1100205</data>
+      <data key="v_NOMEMUN">Porto Velho</data>
+      <data key="v_HURB">0</data>
+      <data key="v_LONG">-63.8314456543</data>
+      <data key="v_LATI">-8.76889178972</data>
+    </node>
+    <node id="n41">
+      <data key="v_geocode">1300839</data>
+      <data key="v_name">1300839</data>
+      <data key="v_NOMEMUN">Caapiranga</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-61.2113341332</data>
+      <data key="v_LATI">-3.3300933918</data>
+    </node>
+    <node id="n42">
+      <data key="v_geocode">1500305</data>
+      <data key="v_name">1500305</data>
+      <data key="v_NOMEMUN">Afuá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-50.3914275893</data>
+      <data key="v_LATI">-0.159171694118</data>
+    </node>
+    <node id="n43">
+      <data key="v_geocode">1504901</data>
+      <data key="v_name">1504901</data>
+      <data key="v_NOMEMUN">Muaná</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.2168324422</data>
+      <data key="v_LATI">-1.53002620794</data>
+    </node>
+    <node id="n44">
+      <data key="v_geocode">1303304</data>
+      <data key="v_name">1303304</data>
+      <data key="v_NOMEMUN">Novo Aripuanã</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-60.3770456687</data>
+      <data key="v_LATI">-5.12266931384</data>
+    </node>
+    <node id="n45">
+      <data key="v_geocode">1503002</data>
+      <data key="v_name">1503002</data>
+      <data key="v_NOMEMUN">Faro</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-56.7457530171</data>
+      <data key="v_LATI">-2.17297524211</data>
+    </node>
+    <node id="n46">
+      <data key="v_geocode">1303007</data>
+      <data key="v_name">1303007</data>
+      <data key="v_NOMEMUN">Nhamundá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-56.7167699135</data>
+      <data key="v_LATI">-2.18898376719</data>
+    </node>
+    <node id="n47">
+      <data key="v_geocode">1304401</data>
+      <data key="v_name">1304401</data>
+      <data key="v_NOMEMUN">Urucurituba</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-58.1596410414</data>
+      <data key="v_LATI">-3.13463311593</data>
+    </node>
+    <node id="n48">
+      <data key="v_geocode">1507979</data>
+      <data key="v_name">1507979</data>
+      <data key="v_NOMEMUN">Terra Santa</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-56.4909047724</data>
+      <data key="v_LATI">-2.1081144733</data>
+    </node>
+    <node id="n49">
+      <data key="v_geocode">1302900</data>
+      <data key="v_name">1302900</data>
+      <data key="v_NOMEMUN">Maués</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-57.7150343863</data>
+      <data key="v_LATI">-3.38642792661</data>
+    </node>
+    <node id="n50">
+      <data key="v_geocode">2916104</data>
+      <data key="v_name">2916104</data>
+      <data key="v_NOMEMUN">Itaparica</data>
+      <data key="v_HURB">42</data>
+      <data key="v_LONG">-38.6840303111</data>
+      <data key="v_LATI">-12.8814890531</data>
+    </node>
+    <node id="n51">
+      <data key="v_geocode">2927408</data>
+      <data key="v_name">2927408</data>
+      <data key="v_NOMEMUN">Salvador</data>
+      <data key="v_HURB">89</data>
+      <data key="v_LONG">-38.488061484</data>
+      <data key="v_LATI">-13.0147719114</data>
+    </node>
+    <node id="n52">
+      <data key="v_geocode">4208401</data>
+      <data key="v_name">4208401</data>
+      <data key="v_NOMEMUN">Itapiranga</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-53.7148020653</data>
+      <data key="v_LATI">-27.1753750897</data>
+    </node>
+    <node id="n53">
+      <data key="v_geocode">4314498</data>
+      <data key="v_name">4314498</data>
+      <data key="v_NOMEMUN">Pinheirinho do Vale</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-53.6195609567</data>
+      <data key="v_LATI">-27.2097627896</data>
+    </node>
+    <node id="n54">
+      <data key="v_geocode">1500206</data>
+      <data key="v_name">1500206</data>
+      <data key="v_NOMEMUN">Acará</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.2004564318</data>
+      <data key="v_LATI">-1.96343649959</data>
+    </node>
+    <node id="n55">
+      <data key="v_geocode">1600600</data>
+      <data key="v_name">1600600</data>
+      <data key="v_NOMEMUN">Santana</data>
+      <data key="v_HURB">26</data>
+      <data key="v_LONG">-51.1728464647</data>
+      <data key="v_LATI">-0.0383734789528</data>
+    </node>
+    <node id="n56">
+      <data key="v_geocode">2709202</data>
+      <data key="v_name">2709202</data>
+      <data key="v_NOMEMUN">Traipu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-37.0060056723</data>
+      <data key="v_LATI">-9.97105938188</data>
+    </node>
+    <node id="n57">
+      <data key="v_geocode">2802403</data>
+      <data key="v_name">2802403</data>
+      <data key="v_NOMEMUN">Gararu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-37.0843724857</data>
+      <data key="v_LATI">-9.9673514681</data>
+    </node>
+    <node id="n58">
+      <data key="v_geocode">1302702</data>
+      <data key="v_name">1302702</data>
+      <data key="v_NOMEMUN">Manicoré</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-61.2992484093</data>
+      <data key="v_LATI">-5.81320526091</data>
+    </node>
+    <node id="n59">
+      <data key="v_geocode">1501105</data>
+      <data key="v_name">1501105</data>
+      <data key="v_NOMEMUN">Bagre</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-50.2219869207</data>
+      <data key="v_LATI">-1.88980806029</data>
+    </node>
+    <node id="n60">
+      <data key="v_geocode">1500602</data>
+      <data key="v_name">1500602</data>
+      <data key="v_NOMEMUN">Altamira</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-52.2143763049</data>
+      <data key="v_LATI">-3.20565950988</data>
+    </node>
+    <node id="n61">
+      <data key="v_geocode">1508357</data>
+      <data key="v_name">1508357</data>
+      <data key="v_NOMEMUN">Vitória do Xingu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-52.0112603541</data>
+      <data key="v_LATI">-2.88376571042</data>
+    </node>
+    <node id="n62">
+      <data key="v_geocode">1304203</data>
+      <data key="v_name">1304203</data>
+      <data key="v_NOMEMUN">Tefé</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-64.7084196635</data>
+      <data key="v_LATI">-3.3483724937</data>
+    </node>
+    <node id="n63">
+      <data key="v_geocode">1302207</data>
+      <data key="v_name">1302207</data>
+      <data key="v_NOMEMUN">Juruá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-66.0630419252</data>
+      <data key="v_LATI">-3.47488959848</data>
+    </node>
+    <node id="n64">
+      <data key="v_geocode">1505809</data>
+      <data key="v_name">1505809</data>
+      <data key="v_NOMEMUN">Portel</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-50.8224904418</data>
+      <data key="v_LATI">-1.93645099981</data>
+    </node>
+    <node id="n65">
+      <data key="v_geocode">1504505</data>
+      <data key="v_name">1504505</data>
+      <data key="v_NOMEMUN">Melgaço</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-50.7174646976</data>
+      <data key="v_LATI">-1.80344669841</data>
+    </node>
+    <node id="n66">
+      <data key="v_geocode">1505304</data>
+      <data key="v_name">1505304</data>
+      <data key="v_NOMEMUN">Oriximiná</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-55.8627995154</data>
+      <data key="v_LATI">-1.76375350022</data>
+    </node>
+    <node id="n67">
+      <data key="v_geocode">1507805</data>
+      <data key="v_name">1507805</data>
+      <data key="v_NOMEMUN">Senador José Porfírio</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-51.9530564183</data>
+      <data key="v_LATI">-2.59485041821</data>
+    </node>
+    <node id="n68">
+      <data key="v_geocode">2401107</data>
+      <data key="v_name">2401107</data>
+      <data key="v_NOMEMUN">Areia Branca</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-37.1312717158</data>
+      <data key="v_LATI">-4.95289763082</data>
+    </node>
+    <node id="n69">
+      <data key="v_geocode">2404408</data>
+      <data key="v_name">2404408</data>
+      <data key="v_NOMEMUN">Grossos</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-37.1574841602</data>
+      <data key="v_LATI">-4.97551480686</data>
+    </node>
+    <node id="n70">
+      <data key="v_geocode">1300102</data>
+      <data key="v_name">1300102</data>
+      <data key="v_NOMEMUN">Anori</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-61.6589553832</data>
+      <data key="v_LATI">-3.74538558628</data>
+    </node>
+    <node id="n71">
+      <data key="v_geocode">1500107</data>
+      <data key="v_name">1500107</data>
+      <data key="v_NOMEMUN">Abaetetuba</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-48.8844038206</data>
+      <data key="v_LATI">-1.72346986294</data>
+    </node>
+    <node id="n72">
+      <data key="v_geocode">1301159</data>
+      <data key="v_name">1301159</data>
+      <data key="v_NOMEMUN">Careiro da Várzea</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-59.8263140605</data>
+      <data key="v_LATI">-3.19739659468</data>
+    </node>
+    <node id="n73">
+      <data key="v_geocode">1502806</data>
+      <data key="v_name">1502806</data>
+      <data key="v_NOMEMUN">Curralinho</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.7915228467</data>
+      <data key="v_LATI">-1.80942342005</data>
+    </node>
+    <node id="n74">
+      <data key="v_geocode">2933208</data>
+      <data key="v_name">2933208</data>
+      <data key="v_NOMEMUN">Vera Cruz</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-38.619159746</data>
+      <data key="v_LATI">-12.9357333314</data>
+    </node>
+    <node id="n75">
+      <data key="v_geocode">1304062</data>
+      <data key="v_name">1304062</data>
+      <data key="v_NOMEMUN">Tabatinga</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-69.9462443749</data>
+      <data key="v_LATI">-4.23188367579</data>
+    </node>
+    <node id="n76">
+      <data key="v_geocode">1300607</data>
+      <data key="v_name">1300607</data>
+      <data key="v_NOMEMUN">Benjamin Constant</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-70.0273484332</data>
+      <data key="v_LATI">-4.37498901853</data>
+    </node>
+    <node id="n77">
+      <data key="v_geocode">1301605</data>
+      <data key="v_name">1301605</data>
+      <data key="v_NOMEMUN">Fonte Boa</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-66.0965029898</data>
+      <data key="v_LATI">-2.51227068484</data>
+    </node>
+    <node id="n78">
+      <data key="v_geocode">1508084</data>
+      <data key="v_name">1508084</data>
+      <data key="v_NOMEMUN">Tucumã</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-51.1395392462</data>
+      <data key="v_LATI">-6.7499720076</data>
+    </node>
+    <node id="n79">
+      <data key="v_geocode">1301852</data>
+      <data key="v_name">1301852</data>
+      <data key="v_NOMEMUN">Iranduba</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-60.1933881664</data>
+      <data key="v_LATI">-3.28105387773</data>
+    </node>
+    <node id="n80">
+      <data key="v_geocode">1502509</data>
+      <data key="v_name">1502509</data>
+      <data key="v_NOMEMUN">Chaves</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.9893186053</data>
+      <data key="v_LATI">-0.162437289849</data>
+    </node>
+    <node id="n81">
+      <data key="v_geocode">1506302</data>
+      <data key="v_name">1506302</data>
+      <data key="v_NOMEMUN">Salvaterra</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.5131865992</data>
+      <data key="v_LATI">-0.754525974194</data>
+    </node>
+    <node id="n82">
+      <data key="v_geocode">1508100</data>
+      <data key="v_name">1508100</data>
+      <data key="v_NOMEMUN">Tucuruí</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-49.6671843676</data>
+      <data key="v_LATI">-3.76688908416</data>
+    </node>
+    <node id="n83">
+      <data key="v_geocode">2105005</data>
+      <data key="v_name">2105005</data>
+      <data key="v_NOMEMUN">Humberto de Campos</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-43.4650921441</data>
+      <data key="v_LATI">-2.59122397221</data>
+    </node>
+    <node id="n84">
+      <data key="v_geocode">2111201</data>
+      <data key="v_name">2111201</data>
+      <data key="v_NOMEMUN">São José de Ribamar</data>
+      <data key="v_HURB">14</data>
+      <data key="v_LONG">-44.0575481152</data>
+      <data key="v_LATI">-2.55585852035</data>
+    </node>
+    <node id="n85">
+      <data key="v_geocode">2105104</data>
+      <data key="v_name">2105104</data>
+      <data key="v_NOMEMUN">Icatu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-44.0658484682</data>
+      <data key="v_LATI">-2.77482786322</data>
+    </node>
+    <node id="n86">
+      <data key="v_geocode">1303205</data>
+      <data key="v_name">1303205</data>
+      <data key="v_NOMEMUN">Novo Airão</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-60.9488107081</data>
+      <data key="v_LATI">-2.62343245924</data>
+    </node>
+    <node id="n87">
+      <data key="v_geocode">2706703</data>
+      <data key="v_name">2706703</data>
+      <data key="v_NOMEMUN">Penedo</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-36.5804602137</data>
+      <data key="v_LATI">-10.2961102982</data>
+    </node>
+    <node id="n88">
+      <data key="v_geocode">2806404</data>
+      <data key="v_name">2806404</data>
+      <data key="v_NOMEMUN">Santana do São Francisco</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-36.599579348</data>
+      <data key="v_LATI">-10.287671972</data>
+    </node>
+    <node id="n89">
+      <data key="v_geocode">1300060</data>
+      <data key="v_name">1300060</data>
+      <data key="v_NOMEMUN">Amaturá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-68.2096146406</data>
+      <data key="v_LATI">-3.36680518721</data>
+    </node>
+    <node id="n90">
+      <data key="v_geocode">1302504</data>
+      <data key="v_name">1302504</data>
+      <data key="v_NOMEMUN">Manacapuru</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-60.620589446</data>
+      <data key="v_LATI">-3.2982780353</data>
+    </node>
+    <node id="n91">
+      <data key="v_geocode">1302306</data>
+      <data key="v_name">1302306</data>
+      <data key="v_NOMEMUN">Jutaí</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-66.7713275469</data>
+      <data key="v_LATI">-2.74464644718</data>
+    </node>
+    <node id="n92">
+      <data key="v_geocode">1302553</data>
+      <data key="v_name">1302553</data>
+      <data key="v_NOMEMUN">Manaquiri</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-60.4588813066</data>
+      <data key="v_LATI">-3.42907966949</data>
+    </node>
+    <node id="n93">
+      <data key="v_geocode">1303908</data>
+      <data key="v_name">1303908</data>
+      <data key="v_NOMEMUN">São Paulo de Olivença</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-68.9448534881</data>
+      <data key="v_LATI">-3.46650962392</data>
+    </node>
+    <node id="n94">
+      <data key="v_geocode">1710706</data>
+      <data key="v_name">1710706</data>
+      <data key="v_NOMEMUN">Itaguatins</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-47.4799359492</data>
+      <data key="v_LATI">-5.77538508885</data>
+    </node>
+    <node id="n95">
+      <data key="v_geocode">2105302</data>
+      <data key="v_name">2105302</data>
+      <data key="v_NOMEMUN">Imperatriz</data>
+      <data key="v_HURB">1</data>
+      <data key="v_LONG">-47.4798108058</data>
+      <data key="v_LATI">-5.52652402496</data>
+    </node>
+    <node id="n96">
+      <data key="v_geocode">2100204</data>
+      <data key="v_name">2100204</data>
+      <data key="v_NOMEMUN">Alcântara</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-44.4170125374</data>
+      <data key="v_LATI">-2.40327652479</data>
+    </node>
+    <node id="n97">
+      <data key="v_geocode">2111300</data>
+      <data key="v_name">2111300</data>
+      <data key="v_NOMEMUN">São Luís</data>
+      <data key="v_HURB">53</data>
+      <data key="v_LONG">-44.2979185645</data>
+      <data key="v_LATI">-2.53188598505</data>
+    </node>
+    <node id="n98">
+      <data key="v_geocode">2706802</data>
+      <data key="v_name">2706802</data>
+      <data key="v_NOMEMUN">Piaçabuçu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-36.4343520085</data>
+      <data key="v_LATI">-10.4073624265</data>
+    </node>
+    <node id="n99">
+      <data key="v_geocode">2800704</data>
+      <data key="v_name">2800704</data>
+      <data key="v_NOMEMUN">Brejo Grande</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-36.4718202435</data>
+      <data key="v_LATI">-10.4189433104</data>
+    </node>
+    <node id="n100">
+      <data key="v_geocode">2924405</data>
+      <data key="v_name">2924405</data>
+      <data key="v_NOMEMUN">Pilão Arcado</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-42.4847567624</data>
+      <data key="v_LATI">-9.99777105609</data>
+    </node>
+    <node id="n101">
+      <data key="v_geocode">2933604</data>
+      <data key="v_name">2933604</data>
+      <data key="v_NOMEMUN">Xique-Xique</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-42.7255080009</data>
+      <data key="v_LATI">-10.8249744177</data>
+    </node>
+    <node id="n102">
+      <data key="v_geocode">1504208</data>
+      <data key="v_name">1504208</data>
+      <data key="v_NOMEMUN">Marabá</data>
+      <data key="v_HURB">1</data>
+      <data key="v_LONG">-49.1420253334</data>
+      <data key="v_LATI">-5.35260576315</data>
+    </node>
+    <node id="n103">
+      <data key="v_geocode">1303700</data>
+      <data key="v_name">1303700</data>
+      <data key="v_NOMEMUN">Santo Antônio do Içá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-67.9464851436</data>
+      <data key="v_LATI">-3.10748630925</data>
+    </node>
+    <node id="n104">
+      <data key="v_geocode">1302009</data>
+      <data key="v_name">1302009</data>
+      <data key="v_NOMEMUN">Itapiranga</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-58.0345458844</data>
+      <data key="v_LATI">-2.74184275224</data>
+    </node>
+    <node id="n105">
+      <data key="v_geocode">1301001</data>
+      <data key="v_name">1301001</data>
+      <data key="v_NOMEMUN">Carauari</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-66.8966352821</data>
+      <data key="v_LATI">-4.88166590456</data>
+    </node>
+    <node id="n106">
+      <data key="v_geocode">3300100</data>
+      <data key="v_name">3300100</data>
+      <data key="v_NOMEMUN">Angra dos Reis</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-44.3196272625</data>
+      <data key="v_LATI">-23.0091159355</data>
+    </node>
+    <node id="n107">
+      <data key="v_geocode">3302601</data>
+      <data key="v_name">3302601</data>
+      <data key="v_NOMEMUN">Mangaratiba</data>
+      <data key="v_HURB">41</data>
+      <data key="v_LONG">-44.041126545</data>
+      <data key="v_LATI">-22.9617119411</data>
+    </node>
+    <node id="n108">
+      <data key="v_geocode">1501006</data>
+      <data key="v_name">1501006</data>
+      <data key="v_NOMEMUN">Aveiro</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-55.3307343894</data>
+      <data key="v_LATI">-3.60559525971</data>
+    </node>
+    <node id="n109">
+      <data key="v_geocode">1506401</data>
+      <data key="v_name">1506401</data>
+      <data key="v_NOMEMUN">Santa Cruz do Arari</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.1716155657</data>
+      <data key="v_LATI">-0.659974125805</data>
+    </node>
+    <node id="n110">
+      <data key="v_geocode">1505700</data>
+      <data key="v_name">1505700</data>
+      <data key="v_NOMEMUN">Ponta de Pedras</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.8717855598</data>
+      <data key="v_LATI">-1.39659999769</data>
+    </node>
+    <node id="n111">
+      <data key="v_geocode">1504000</data>
+      <data key="v_name">1504000</data>
+      <data key="v_NOMEMUN">Limoeiro do Ajuru</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-49.3815339013</data>
+      <data key="v_LATI">-1.89194849982</data>
+    </node>
+    <node id="n112">
+      <data key="v_geocode">1502855</data>
+      <data key="v_name">1502855</data>
+      <data key="v_NOMEMUN">Curuá</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-55.1196786084</data>
+      <data key="v_LATI">-1.88992870435</data>
+    </node>
+    <node id="n113">
+      <data key="v_geocode">4109500</data>
+      <data key="v_name">4109500</data>
+      <data key="v_NOMEMUN">Guaraqueçaba</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.3260489328</data>
+      <data key="v_LATI">-25.300437474</data>
+    </node>
+    <node id="n114">
+      <data key="v_geocode">4118204</data>
+      <data key="v_name">4118204</data>
+      <data key="v_NOMEMUN">Paranaguá</data>
+      <data key="v_HURB">3</data>
+      <data key="v_LONG">-48.5247328367</data>
+      <data key="v_LATI">-25.5068415</data>
+    </node>
+    <node id="n115">
+      <data key="v_geocode">1304237</data>
+      <data key="v_name">1304237</data>
+      <data key="v_NOMEMUN">Tonantins</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-67.7764822808</data>
+      <data key="v_LATI">-2.86109125026</data>
+    </node>
+    <node id="n116">
+      <data key="v_geocode">2926004</data>
+      <data key="v_name">2926004</data>
+      <data key="v_NOMEMUN">Remanso</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-42.079667542</data>
+      <data key="v_LATI">-9.62390678907</data>
+    </node>
+    <node id="n117">
+      <data key="v_geocode">2930204</data>
+      <data key="v_name">2930204</data>
+      <data key="v_NOMEMUN">Sento Sé</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-41.8909969156</data>
+      <data key="v_LATI">-9.74037980478</data>
+    </node>
+    <node id="n118">
+      <data key="v_geocode">1503606</data>
+      <data key="v_name">1503606</data>
+      <data key="v_NOMEMUN">Itaituba</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-55.9900488572</data>
+      <data key="v_LATI">-4.26372947973</data>
+    </node>
+    <node id="n119">
+      <data key="v_geocode">1300086</data>
+      <data key="v_name">1300086</data>
+      <data key="v_NOMEMUN">Anamã</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-61.4059034795</data>
+      <data key="v_LATI">-3.57637042645</data>
+    </node>
+    <node id="n120">
+      <data key="v_geocode">1304302</data>
+      <data key="v_name">1304302</data>
+      <data key="v_NOMEMUN">Urucará</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-57.7598281749</data>
+      <data key="v_LATI">-2.53661167149</data>
+    </node>
+    <node id="n121">
+      <data key="v_geocode">1303809</data>
+      <data key="v_name">1303809</data>
+      <data key="v_NOMEMUN">São Gabriel da Cachoeira</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-67.0836428966</data>
+      <data key="v_LATI">-0.136462788127</data>
+    </node>
+    <node id="n122">
+      <data key="v_geocode">1200203</data>
+      <data key="v_name">1200203</data>
+      <data key="v_NOMEMUN">Cruzeiro do Sul</data>
+      <data key="v_HURB">4</data>
+      <data key="v_LONG">-72.6725313173</data>
+      <data key="v_LATI">-7.63069000514</data>
+    </node>
+    <node id="n123">
+      <data key="v_geocode">1200351</data>
+      <data key="v_name">1200351</data>
+      <data key="v_NOMEMUN">Marechal Thaumaturgo</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-72.7902659091</data>
+      <data key="v_LATI">-8.95359112333</data>
+    </node>
+    <node id="n124">
+      <data key="v_geocode">1300409</data>
+      <data key="v_name">1300409</data>
+      <data key="v_NOMEMUN">Barcelos</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-62.9256696577</data>
+      <data key="v_LATI">-0.972801052127</data>
+    </node>
+    <node id="n125">
+      <data key="v_geocode">2707503</data>
+      <data key="v_name">2707503</data>
+      <data key="v_NOMEMUN">Porto Real do Colégio</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-36.8246292914</data>
+      <data key="v_LATI">-10.1737325641</data>
+    </node>
+    <node id="n126">
+      <data key="v_geocode">2805703</data>
+      <data key="v_name">2805703</data>
+      <data key="v_NOMEMUN">Propriá</data>
+      <data key="v_HURB">5</data>
+      <data key="v_LONG">-36.8420993587</data>
+      <data key="v_LATI">-10.2082073157</data>
+    </node>
+    <node id="n127">
+      <data key="v_geocode">4207205</data>
+      <data key="v_name">4207205</data>
+      <data key="v_NOMEMUN">Imaruí</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.8146717192</data>
+      <data key="v_LATI">-28.3438499096</data>
+    </node>
+    <node id="n128">
+      <data key="v_geocode">4209409</data>
+      <data key="v_name">4209409</data>
+      <data key="v_NOMEMUN">Laguna</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.7813886215</data>
+      <data key="v_LATI">-28.483585954</data>
+    </node>
+    <node id="n129">
+      <data key="v_geocode">1303957</data>
+      <data key="v_name">1303957</data>
+      <data key="v_NOMEMUN">São Sebastião do Uatumã</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-57.8703463558</data>
+      <data key="v_LATI">-2.57015257968</data>
+    </node>
+    <node id="n130">
+      <data key="v_geocode">1502004</data>
+      <data key="v_name">1502004</data>
+      <data key="v_NOMEMUN">Cachoeira do Arari</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.9606675774</data>
+      <data key="v_LATI">-1.00878626547</data>
+    </node>
+    <node id="n131">
+      <data key="v_geocode">1300680</data>
+      <data key="v_name">1300680</data>
+      <data key="v_NOMEMUN">Boa Vista do Ramos</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-57.5877073467</data>
+      <data key="v_LATI">-2.97172653185</data>
+    </node>
+    <node id="n132">
+      <data key="v_geocode">1508308</data>
+      <data key="v_name">1508308</data>
+      <data key="v_NOMEMUN">Viseu</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-46.138765216</data>
+      <data key="v_LATI">-1.20327852638</data>
+    </node>
+    <node id="n133">
+      <data key="v_geocode">2102903</data>
+      <data key="v_name">2102903</data>
+      <data key="v_NOMEMUN">Carutapera</data>
+      <data key="v_HURB">6</data>
+      <data key="v_LONG">-46.0231508343</data>
+      <data key="v_LATI">-1.20060200008</data>
+    </node>
+    <node id="n134">
+      <data key="v_geocode">1303601</data>
+      <data key="v_name">1303601</data>
+      <data key="v_NOMEMUN">Santa Isabel do Rio Negro</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-65.0200226395</data>
+      <data key="v_LATI">-0.416694831901</data>
+    </node>
+    <node id="n135">
+      <data key="v_geocode">1200393</data>
+      <data key="v_name">1200393</data>
+      <data key="v_NOMEMUN">Porto Walter</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-72.742333965</data>
+      <data key="v_LATI">-8.26666636256</data>
+    </node>
+    <node id="n136">
+      <data key="v_geocode">1300508</data>
+      <data key="v_name">1300508</data>
+      <data key="v_NOMEMUN">Barreirinha</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-57.0677504895</data>
+      <data key="v_LATI">-2.79814983705</data>
+    </node>
+    <node id="n137">
+      <data key="v_geocode">2109403</data>
+      <data key="v_name">2109403</data>
+      <data key="v_NOMEMUN">Primeira Cruz</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-43.4424433047</data>
+      <data key="v_LATI">-2.51058317178</data>
+    </node>
+    <node id="n138">
+      <data key="v_geocode">1301803</data>
+      <data key="v_name">1301803</data>
+      <data key="v_NOMEMUN">Ipixuna</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-71.6944180605</data>
+      <data key="v_LATI">-7.05098011464</data>
+    </node>
+    <node id="n139">
+      <data key="v_geocode">1507904</data>
+      <data key="v_name">1507904</data>
+      <data key="v_NOMEMUN">Soure</data>
+      <data key="v_HURB">2</data>
+      <data key="v_LONG">-48.5160126621</data>
+      <data key="v_LATI">-0.725925499762</data>
+    </node>
+    <edge source="n0" target="n1">
+      <data key="e_id">13026031304260</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n2" target="n0">
+      <data key="e_id">13021081302603</data>
+      <data key="e_MINCOST">230</data>
+      <data key="e_MINTIME">8640</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n3" target="n0">
+      <data key="e_id">13000291302603</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">1920</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n3" target="n4">
+      <data key="e_id">13000291301308</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">1380</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n5" target="n6">
+      <data key="e_id">13003001300805</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">1380</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n4" target="n1">
+      <data key="e_id">13013081304260</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">1620</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n7" target="n8">
+      <data key="e_id">15039031504802</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">1320</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n9" target="n8">
+      <data key="e_id">13019021504802</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">2550</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n9" target="n10">
+      <data key="e_id">13019021501402</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">5010</data>
+      <data key="e_weight">3.5</data>
+    </edge>
+    <edge source="n11" target="n12">
+      <data key="e_id">15012041504604</data>
+      <data key="e_MINCOST">1</data>
+      <data key="e_MINTIME">25</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n13" target="n12">
+      <data key="e_id">15021031504604</data>
+      <data key="e_MINCOST">3</data>
+      <data key="e_MINTIME">75</data>
+      <data key="e_weight">49.5</data>
+    </edge>
+    <edge source="n9" target="n14">
+      <data key="e_id">13019021501808</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">4230</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n15" target="n7">
+      <data key="e_id">15005031503903</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">1740</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n9" target="n15">
+      <data key="e_id">13019021500503</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">3180</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n0" target="n16">
+      <data key="e_id">13026031302801</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">4320</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n7" target="n17">
+      <data key="e_id">15039031506005</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">14</data>
+    </edge>
+    <edge source="n9" target="n17">
+      <data key="e_id">13019021506005</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2850</data>
+      <data key="e_weight">12.5</data>
+    </edge>
+    <edge source="n18" target="n1">
+      <data key="e_id">13012091304260</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">1140</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n19">
+      <data key="e_id">13026031500404</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2670</data>
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n9" target="n20">
+      <data key="e_id">13019021503101</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">3270</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n21" target="n10">
+      <data key="e_id">13034031501402</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">4350</data>
+      <data key="e_weight">3.5</data>
+    </edge>
+    <edge source="n21" target="n14">
+      <data key="e_id">13034031501808</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">3570</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n10" target="n22">
+      <data key="e_id">15014021507706</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">210</data>
+      <data key="e_weight">51</data>
+    </edge>
+    <edge source="n9" target="n23">
+      <data key="e_id">13019021506807</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">1650</data>
+      <data key="e_weight">13.5</data>
+    </edge>
+    <edge source="n24" target="n0">
+      <data key="e_id">13009041302603</data>
+      <data key="e_MINCOST">280</data>
+      <data key="e_MINTIME">5760</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n21" target="n15">
+      <data key="e_id">13034031500503</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">2580</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n21" target="n8">
+      <data key="e_id">13034031504802</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1950</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n9" target="n19">
+      <data key="e_id">13019021500404</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1890</data>
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n25" target="n17">
+      <data key="e_id">15051061506005</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">1320</data>
+      <data key="e_weight">14</data>
+    </edge>
+    <edge source="n21" target="n20">
+      <data key="e_id">13034031503101</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">2820</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n15" target="n25">
+      <data key="e_id">15005031505106</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">1500</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n20" target="n7">
+      <data key="e_id">15031011503903</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2220</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n26" target="n27">
+      <data key="e_id">13006311304104</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">10.5</data>
+    </edge>
+    <edge source="n28" target="n27">
+      <data key="e_id">13024051304104</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">3600</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n21" target="n17">
+      <data key="e_id">13034031506005</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">12.5</data>
+    </edge>
+    <edge source="n29" target="n10">
+      <data key="e_id">15007011501402</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n10" target="n30">
+      <data key="e_id">15014021600279</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n10" target="n31">
+      <data key="e_id">15014021600808</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n0" target="n8">
+      <data key="e_id">13026031504802</data>
+      <data key="e_MINCOST">173</data>
+      <data key="e_MINTIME">3060</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n0" target="n17">
+      <data key="e_id">13026031506005</data>
+      <data key="e_MINCOST">192</data>
+      <data key="e_MINTIME">3360</data>
+      <data key="e_weight">12.5</data>
+    </edge>
+    <edge source="n15" target="n31">
+      <data key="e_id">15005031600808</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">870</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n0" target="n14">
+      <data key="e_id">13026031501808</data>
+      <data key="e_MINCOST">275</data>
+      <data key="e_MINTIME">4680</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n21" target="n19">
+      <data key="e_id">13034031500404</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n0" target="n15">
+      <data key="e_id">13026031500503</data>
+      <data key="e_MINCOST">221</data>
+      <data key="e_MINTIME">3690</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n20" target="n25">
+      <data key="e_id">15031011505106</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1980</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n0" target="n20">
+      <data key="e_id">13026031503101</data>
+      <data key="e_MINCOST">249</data>
+      <data key="e_MINTIME">4020</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n6" target="n32">
+      <data key="e_id">13008051301704</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">2400</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n24" target="n27">
+      <data key="e_id">13009041304104</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">2400</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n14" target="n7">
+      <data key="e_id">15018081503903</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">2880</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n0" target="n10">
+      <data key="e_id">13026031501402</data>
+      <data key="e_MINCOST">326</data>
+      <data key="e_MINTIME">5100</data>
+      <data key="e_weight">3.5</data>
+    </edge>
+    <edge source="n10" target="n33">
+      <data key="e_id">15014021505908</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1560</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n34" target="n31">
+      <data key="e_id">16003031600808</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n35" target="n36">
+      <data key="e_id">15013031505205</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n14" target="n20">
+      <data key="e_id">15018081503101</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n37" target="n38">
+      <data key="e_id">43156024318507</data>
+      <data key="e_MINCOST">2</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">472</data>
+    </edge>
+    <edge source="n32" target="n39">
+      <data key="e_id">13017041303106</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">2640</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n14" target="n25">
+      <data key="e_id">15018081505106</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">2640</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n14" target="n23">
+      <data key="e_id">15018081506807</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1740</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n40" target="n39">
+      <data key="e_id">11002051303106</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">2880</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n3" target="n18">
+      <data key="e_id">13000291301209</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n5" target="n0">
+      <data key="e_id">13003001302603</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">13.5</data>
+    </edge>
+    <edge source="n41" target="n0">
+      <data key="e_id">13008391302603</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n0" target="n25">
+      <data key="e_id">13026031505106</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">26</data>
+    </edge>
+    <edge source="n42" target="n10">
+      <data key="e_id">15003051501402</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n10" target="n43">
+      <data key="e_id">15014021504901</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">31</data>
+    </edge>
+    <edge source="n10" target="n36">
+      <data key="e_id">15014021505205</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n14" target="n8">
+      <data key="e_id">15018081504802</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n14" target="n30">
+      <data key="e_id">15018081600279</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n14" target="n31">
+      <data key="e_id">15018081600808</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n20" target="n30">
+      <data key="e_id">15031011600279</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n20" target="n31">
+      <data key="e_id">15031011600808</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n8" target="n25">
+      <data key="e_id">15048021505106</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n0" target="n27">
+      <data key="e_id">13026031304104</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">2400</data>
+      <data key="e_weight">10.5</data>
+    </edge>
+    <edge source="n40" target="n6">
+      <data key="e_id">11002051300805</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">2520</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n35" target="n30">
+      <data key="e_id">15013031600279</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1800</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n35" target="n31">
+      <data key="e_id">15013031600808</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1800</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n32" target="n44">
+      <data key="e_id">13017041303304</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">2040</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n42" target="n14">
+      <data key="e_id">15003051501808</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n14" target="n17">
+      <data key="e_id">15018081506005</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">14</data>
+    </edge>
+    <edge source="n0" target="n45">
+      <data key="e_id">13026031503002</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1590</data>
+      <data key="e_weight">8.5</data>
+    </edge>
+    <edge source="n23" target="n30">
+      <data key="e_id">15068071600279</data>
+      <data key="e_MINCOST">160</data>
+      <data key="e_MINTIME">2100</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n0" target="n46">
+      <data key="e_id">13026031303007</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1560</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n47" target="n48">
+      <data key="e_id">13044011507979</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n0" target="n23">
+      <data key="e_id">13026031506807</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1680</data>
+      <data key="e_weight">17</data>
+    </edge>
+    <edge source="n0" target="n49">
+      <data key="e_id">13026031302900</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n21" target="n23">
+      <data key="e_id">13034031506807</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">22.5</data>
+    </edge>
+    <edge source="n40" target="n44">
+      <data key="e_id">11002051303304</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n50" target="n51">
+      <data key="e_id">29161042927408</data>
+      <data key="e_MINCOST">4.8</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">228</data>
+    </edge>
+    <edge source="n52" target="n53">
+      <data key="e_id">42084014314498</data>
+      <data key="e_MINCOST">2</data>
+      <data key="e_MINTIME">25</data>
+      <data key="e_weight">21</data>
+    </edge>
+    <edge source="n14" target="n33">
+      <data key="e_id">15018081505908</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">870</data>
+      <data key="e_weight">1</data>
+    </edge>
+    <edge source="n26" target="n0">
+      <data key="e_id">13006311302603</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n9" target="n25">
+      <data key="e_id">13019021505106</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n54" target="n10">
+      <data key="e_id">15002061501402</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n19" target="n7">
+      <data key="e_id">15004041503903</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n15" target="n14">
+      <data key="e_id">15005031501808</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n29" target="n14">
+      <data key="e_id">15007011501808</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n20" target="n8">
+      <data key="e_id">15031011504802</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">17</data>
+    </edge>
+    <edge source="n23" target="n31">
+      <data key="e_id">15068071600808</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">1800</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n55" target="n31">
+      <data key="e_id">16006001600808</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n56" target="n57">
+      <data key="e_id">27092022802403</data>
+      <data key="e_MINCOST">5</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n0" target="n48">
+      <data key="e_id">13026031507979</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1380</data>
+      <data key="e_weight">8.5</data>
+    </edge>
+    <edge source="n46" target="n23">
+      <data key="e_id">13030071506807</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1140</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n20" target="n23">
+      <data key="e_id">15031011506807</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1140</data>
+      <data key="e_weight">15</data>
+    </edge>
+    <edge source="n9" target="n48">
+      <data key="e_id">13019021507979</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1110</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n10" target="n23">
+      <data key="e_id">15014021506807</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n10" target="n55">
+      <data key="e_id">15014021600600</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n10" target="n8">
+      <data key="e_id">15014021504802</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1320</data>
+      <data key="e_weight">10</data>
+    </edge>
+    <edge source="n32" target="n58">
+      <data key="e_id">13017041302702</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">27</data>
+    </edge>
+    <edge source="n59" target="n10">
+      <data key="e_id">15011051501402</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">14.5</data>
+    </edge>
+    <edge source="n35" target="n43">
+      <data key="e_id">15013031504901</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">270</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n60" target="n55">
+      <data key="e_id">15006021600600</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">1800</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n61" target="n55">
+      <data key="e_id">15083571600600</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">1800</data>
+      <data key="e_weight">3.5</data>
+    </edge>
+    <edge source="n4" target="n62">
+      <data key="e_id">13013081304203</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">45.5</data>
+    </edge>
+    <edge source="n59" target="n22">
+      <data key="e_id">15011051507706</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n9" target="n45">
+      <data key="e_id">13019021503002</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n8" target="n30">
+      <data key="e_id">15048021600279</data>
+      <data key="e_MINCOST">140</data>
+      <data key="e_MINTIME">1410</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n4" target="n0">
+      <data key="e_id">13013081302603</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">74.5</data>
+    </edge>
+    <edge source="n63" target="n0">
+      <data key="e_id">13022071302603</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">1500</data>
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n47" target="n45">
+      <data key="e_id">13044011503002</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n29" target="n34">
+      <data key="e_id">15007011600303</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n10" target="n64">
+      <data key="e_id">15014021505809</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">33</data>
+    </edge>
+    <edge source="n45" target="n25">
+      <data key="e_id">15030021505106</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">10.5</data>
+    </edge>
+    <edge source="n20" target="n17">
+      <data key="e_id">15031011506005</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n65" target="n34">
+      <data key="e_id">15045051600303</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n66" target="n48">
+      <data key="e_id">15053041507979</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n17" target="n61">
+      <data key="e_id">15060051508357</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">1200</data>
+      <data key="e_weight">2.5</data>
+    </edge>
+    <edge source="n67" target="n55">
+      <data key="e_id">15078051600600</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">1500</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n68" target="n69">
+      <data key="e_id">24011072404408</data>
+      <data key="e_MINCOST">3</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">66</data>
+    </edge>
+    <edge source="n70" target="n0">
+      <data key="e_id">13001021302603</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">390</data>
+      <data key="e_weight">28.5</data>
+    </edge>
+    <edge source="n10" target="n20">
+      <data key="e_id">15014021503101</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n30" target="n55">
+      <data key="e_id">16002791600600</data>
+      <data key="e_MINCOST">55</data>
+      <data key="e_MINTIME">530</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n18" target="n0">
+      <data key="e_id">13012091302603</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">69</data>
+    </edge>
+    <edge source="n71" target="n43">
+      <data key="e_id">15001071504901</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n15" target="n10">
+      <data key="e_id">15005031501402</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">11.5</data>
+    </edge>
+    <edge source="n45" target="n23">
+      <data key="e_id">15030021506807</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">18.25</data>
+    </edge>
+    <edge source="n10" target="n17">
+      <data key="e_id">15014021506005</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1200</data>
+      <data key="e_weight">17</data>
+    </edge>
+    <edge source="n72" target="n0">
+      <data key="e_id">13011591302603</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">467</data>
+    </edge>
+    <edge source="n42" target="n29">
+      <data key="e_id">15003051500701</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n19" target="n25">
+      <data key="e_id">15004041505106</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">270</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n15" target="n61">
+      <data key="e_id">15005031508357</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n10" target="n65">
+      <data key="e_id">15014021504505</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">23</data>
+    </edge>
+    <edge source="n73" target="n36">
+      <data key="e_id">15028061505205</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n17" target="n67">
+      <data key="e_id">15060051507805</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">2.5</data>
+    </edge>
+    <edge source="n10" target="n67">
+      <data key="e_id">15014021507805</data>
+      <data key="e_MINCOST">95</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n64" target="n34">
+      <data key="e_id">15058091600303</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">12.5</data>
+    </edge>
+    <edge source="n8" target="n31">
+      <data key="e_id">15048021600808</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">1110</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n51" target="n74">
+      <data key="e_id">29274082933208</data>
+      <data key="e_MINCOST">5.3</data>
+      <data key="e_MINTIME">45</data>
+      <data key="e_weight">539</data>
+    </edge>
+    <edge source="n70" target="n26">
+      <data key="e_id">13001021300631</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">210</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n9" target="n7">
+      <data key="e_id">13019021503903</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n0" target="n75">
+      <data key="e_id">13026031304062</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">1680</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n10" target="n61">
+      <data key="e_id">15014021508357</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n76" target="n0">
+      <data key="e_id">13006071302603</data>
+      <data key="e_MINCOST">200</data>
+      <data key="e_MINTIME">1620</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n18" target="n62">
+      <data key="e_id">13012091304203</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">45</data>
+    </edge>
+    <edge source="n77" target="n0">
+      <data key="e_id">13016051302603</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">35.375</data>
+    </edge>
+    <edge source="n67" target="n78">
+      <data key="e_id">15078051508084</data>
+      <data key="e_MINCOST">85</data>
+      <data key="e_MINTIME">660</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n78" target="n61">
+      <data key="e_id">15080841508357</data>
+      <data key="e_MINCOST">85</data>
+      <data key="e_MINTIME">660</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n15" target="n67">
+      <data key="e_id">15005031507805</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n79" target="n0">
+      <data key="e_id">13018521302603</data>
+      <data key="e_MINCOST">4</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n21" target="n45">
+      <data key="e_id">13034031503002</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n80" target="n67">
+      <data key="e_id">15025091507805</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n80" target="n61">
+      <data key="e_id">15025091508357</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n10" target="n7">
+      <data key="e_id">15014021503903</data>
+      <data key="e_MINCOST">230</data>
+      <data key="e_MINTIME">1680</data>
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n10" target="n81">
+      <data key="e_id">15014021506302</data>
+      <data key="e_MINCOST">16.43</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">65</data>
+    </edge>
+    <edge source="n35" target="n64">
+      <data key="e_id">15013031505809</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n20" target="n67">
+      <data key="e_id">15031011507805</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n20" target="n61">
+      <data key="e_id">15031011508357</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n12" target="n82">
+      <data key="e_id">15046041508100</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">3.25</data>
+    </edge>
+    <edge source="n25" target="n48">
+      <data key="e_id">15051061507979</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">14.5</data>
+    </edge>
+    <edge source="n83" target="n84">
+      <data key="e_id">21050052111201</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n85" target="n84">
+      <data key="e_id">21051042111201</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n21" target="n25">
+      <data key="e_id">13034031505106</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">21.5</data>
+    </edge>
+    <edge source="n80" target="n34">
+      <data key="e_id">15025091600303</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n0" target="n86">
+      <data key="e_id">13026031303205</data>
+      <data key="e_MINCOST">35</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n16" target="n62">
+      <data key="e_id">13028011304203</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">13</data>
+    </edge>
+    <edge source="n42" target="n67">
+      <data key="e_id">15003051507805</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n42" target="n61">
+      <data key="e_id">15003051508357</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n10" target="n25">
+      <data key="e_id">15014021505106</data>
+      <data key="e_MINCOST">230</data>
+      <data key="e_MINTIME">1560</data>
+      <data key="e_weight">5</data>
+    </edge>
+    <edge source="n35" target="n14">
+      <data key="e_id">15013031501808</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n0" target="n39">
+      <data key="e_id">13026031303106</data>
+      <data key="e_MINCOST">45</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">57</data>
+    </edge>
+    <edge source="n20" target="n55">
+      <data key="e_id">15031011600600</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">8.5</data>
+    </edge>
+    <edge source="n17" target="n31">
+      <data key="e_id">15060051600808</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n87" target="n88">
+      <data key="e_id">27067032806404</data>
+      <data key="e_MINCOST">3</data>
+      <data key="e_MINTIME">20</data>
+      <data key="e_weight">120</data>
+    </edge>
+    <edge source="n23" target="n48">
+      <data key="e_id">15068071507979</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">660</data>
+      <data key="e_weight">20</data>
+    </edge>
+    <edge source="n73" target="n55">
+      <data key="e_id">15028061600600</data>
+      <data key="e_MINCOST">110</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n17" target="n30">
+      <data key="e_id">15060051600279</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n77" target="n75">
+      <data key="e_id">13016051304062</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n76" target="n77">
+      <data key="e_id">13006071301605</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">810</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n13" target="n82">
+      <data key="e_id">15021031508100</data>
+      <data key="e_MINCOST">58</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">7.75</data>
+    </edge>
+    <edge source="n40" target="n58">
+      <data key="e_id">11002051302702</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">20.5</data>
+    </edge>
+    <edge source="n89" target="n0">
+      <data key="e_id">13000601302603</data>
+      <data key="e_MINCOST">180</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n70" target="n90">
+      <data key="e_id">13001021302504</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">32.5</data>
+    </edge>
+    <edge source="n6" target="n44">
+      <data key="e_id">13008051303304</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">41</data>
+    </edge>
+    <edge source="n18" target="n4">
+      <data key="e_id">13012091301308</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">71</data>
+    </edge>
+    <edge source="n9" target="n49">
+      <data key="e_id">13019021302900</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">20</data>
+    </edge>
+    <edge source="n63" target="n62">
+      <data key="e_id">13022071304203</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n91" target="n75">
+      <data key="e_id">13023061304062</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n90" target="n92">
+      <data key="e_id">13025041302553</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n0" target="n58">
+      <data key="e_id">13026031302702</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">38</data>
+    </edge>
+    <edge source="n0" target="n21">
+      <data key="e_id">13026031303403</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">42</data>
+    </edge>
+    <edge source="n0" target="n93">
+      <data key="e_id">13026031303908</data>
+      <data key="e_MINCOST">190</data>
+      <data key="e_MINTIME">1140</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n58" target="n44">
+      <data key="e_id">13027021303304</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">38</data>
+    </edge>
+    <edge source="n46" target="n45">
+      <data key="e_id">13030071503002</data>
+      <data key="e_MINCOST">5</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n46" target="n48">
+      <data key="e_id">13030071507979</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">10</data>
+    </edge>
+    <edge source="n15" target="n20">
+      <data key="e_id">15005031503101</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">17</data>
+    </edge>
+    <edge source="n59" target="n35">
+      <data key="e_id">15011051501303</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n10" target="n14">
+      <data key="e_id">15014021501808</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">74.5</data>
+    </edge>
+    <edge source="n10" target="n73">
+      <data key="e_id">15014021502806</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">52.5</data>
+    </edge>
+    <edge source="n10" target="n12">
+      <data key="e_id">15014021504604</data>
+      <data key="e_MINCOST">35</data>
+      <data key="e_MINTIME">210</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n14" target="n73">
+      <data key="e_id">15018081502806</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">29</data>
+    </edge>
+    <edge source="n14" target="n55">
+      <data key="e_id">15018081600600</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">14.5</data>
+    </edge>
+    <edge source="n13" target="n36">
+      <data key="e_id">15021031505205</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">36</data>
+    </edge>
+    <edge source="n73" target="n64">
+      <data key="e_id">15028061505809</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n7" target="n48">
+      <data key="e_id">15039031507979</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n25" target="n23">
+      <data key="e_id">15051061506807</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">161</data>
+    </edge>
+    <edge source="n36" target="n22">
+      <data key="e_id">15052051507706</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n66" target="n23">
+      <data key="e_id">15053041506807</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">46</data>
+    </edge>
+    <edge source="n94" target="n95">
+      <data key="e_id">17107062105302</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">10.5</data>
+    </edge>
+    <edge source="n96" target="n97">
+      <data key="e_id">21002042111300</data>
+      <data key="e_MINCOST">15</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">24.5</data>
+    </edge>
+    <edge source="n98" target="n99">
+      <data key="e_id">27068022800704</data>
+      <data key="e_MINCOST">5</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">93</data>
+    </edge>
+    <edge source="n100" target="n101">
+      <data key="e_id">29244052933604</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n10" target="n13">
+      <data key="e_id">15014021502103</data>
+      <data key="e_MINCOST">37.12</data>
+      <data key="e_MINTIME">220</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n15" target="n23">
+      <data key="e_id">15005031506807</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">410</data>
+      <data key="e_weight">42</data>
+    </edge>
+    <edge source="n102" target="n95">
+      <data key="e_id">15042082105302</data>
+      <data key="e_MINCOST">37.57</data>
+      <data key="e_MINTIME">220</data>
+      <data key="e_weight">1.5</data>
+    </edge>
+    <edge source="n76" target="n91">
+      <data key="e_id">13006071302306</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">690</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n30" target="n31">
+      <data key="e_id">16002791600808</data>
+      <data key="e_MINCOST">7</data>
+      <data key="e_MINTIME">40</data>
+      <data key="e_weight">68</data>
+    </edge>
+    <edge source="n32" target="n0">
+      <data key="e_id">13017041302603</data>
+      <data key="e_MINCOST">190</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">10.5</data>
+    </edge>
+    <edge source="n0" target="n103">
+      <data key="e_id">13026031303700</data>
+      <data key="e_MINCOST">170</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n104" target="n0">
+      <data key="e_id">13020091302603</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">330</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n2" target="n62">
+      <data key="e_id">13021081304203</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">660</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n45" target="n48">
+      <data key="e_id">15030021507979</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">110</data>
+      <data key="e_weight">22</data>
+    </edge>
+    <edge source="n33" target="n55">
+      <data key="e_id">15059081600600</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">660</data>
+      <data key="e_weight">16.5</data>
+    </edge>
+    <edge source="n7" target="n23">
+      <data key="e_id">15039031506807</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">270</data>
+      <data key="e_weight">77.5</data>
+    </edge>
+    <edge source="n105" target="n0">
+      <data key="e_id">13010011302603</data>
+      <data key="e_MINCOST">400</data>
+      <data key="e_MINTIME">2160</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n0" target="n7">
+      <data key="e_id">13026031503903</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">29.5</data>
+    </edge>
+    <edge source="n9" target="n0">
+      <data key="e_id">13019021302603</data>
+      <data key="e_MINCOST">45</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">42</data>
+    </edge>
+    <edge source="n106" target="n107">
+      <data key="e_id">33001003302601</data>
+      <data key="e_MINCOST">15</data>
+      <data key="e_MINTIME">80</data>
+      <data key="e_weight">42</data>
+    </edge>
+    <edge source="n91" target="n62">
+      <data key="e_id">13023061304203</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">26</data>
+    </edge>
+    <edge source="n15" target="n8">
+      <data key="e_id">15005031504802</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">260</data>
+      <data key="e_weight">43</data>
+    </edge>
+    <edge source="n40" target="n0">
+      <data key="e_id">11002051302603</data>
+      <data key="e_MINCOST">210</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">19</data>
+    </edge>
+    <edge source="n77" target="n62">
+      <data key="e_id">13016051304203</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">26</data>
+    </edge>
+    <edge source="n108" target="n23">
+      <data key="e_id">15010061506807</data>
+      <data key="e_MINCOST">35</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">80</data>
+    </edge>
+    <edge source="n10" target="n109">
+      <data key="e_id">15014021506401</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">19</data>
+    </edge>
+    <edge source="n9" target="n66">
+      <data key="e_id">13019021505304</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">510</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n26" target="n90">
+      <data key="e_id">13006311302504</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">84</data>
+    </edge>
+    <edge source="n2" target="n16">
+      <data key="e_id">13021081302801</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n42" target="n80">
+      <data key="e_id">15003051502509</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n10" target="n110">
+      <data key="e_id">15014021505700</data>
+      <data key="e_MINCOST">15</data>
+      <data key="e_MINTIME">75</data>
+      <data key="e_weight">35.5</data>
+    </edge>
+    <edge source="n13" target="n111">
+      <data key="e_id">15021031504000</data>
+      <data key="e_MINCOST">18</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n73" target="n65">
+      <data key="e_id">15028061504505</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n112" target="n23">
+      <data key="e_id">15028551506807</data>
+      <data key="e_MINCOST">48</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">22</data>
+    </edge>
+    <edge source="n8" target="n23">
+      <data key="e_id">15048021506807</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">88</data>
+    </edge>
+    <edge source="n33" target="n61">
+      <data key="e_id">15059081508357</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n113" target="n114">
+      <data key="e_id">41095004118204</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">42</data>
+    </edge>
+    <edge source="n0" target="n62">
+      <data key="e_id">13026031304203</data>
+      <data key="e_MINCOST">145</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">51.5</data>
+    </edge>
+    <edge source="n77" target="n93">
+      <data key="e_id">13016051303908</data>
+      <data key="e_MINCOST">110</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n75" target="n115">
+      <data key="e_id">13040621304237</data>
+      <data key="e_MINCOST">110</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n0" target="n115">
+      <data key="e_id">13026031304237</data>
+      <data key="e_MINCOST">160</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">23.25</data>
+    </edge>
+    <edge source="n8" target="n55">
+      <data key="e_id">15048021600600</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">585</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n46" target="n21">
+      <data key="e_id">13030071303403</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n103" target="n75">
+      <data key="e_id">13037001304062</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n71" target="n111">
+      <data key="e_id">15001071504000</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n11" target="n82">
+      <data key="e_id">15012041508100</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">1.75</data>
+    </edge>
+    <edge source="n10" target="n111">
+      <data key="e_id">15014021504000</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n17" target="n23">
+      <data key="e_id">15060051506807</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">73.5</data>
+    </edge>
+    <edge source="n116" target="n117">
+      <data key="e_id">29260042930204</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">18</data>
+    </edge>
+    <edge source="n40" target="n32">
+      <data key="e_id">11002051301704</data>
+      <data key="e_MINCOST">38</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">17.5</data>
+    </edge>
+    <edge source="n118" target="n23">
+      <data key="e_id">15036061506807</data>
+      <data key="e_MINCOST">68</data>
+      <data key="e_MINTIME">320</data>
+      <data key="e_weight">56</data>
+    </edge>
+    <edge source="n89" target="n75">
+      <data key="e_id">13000601304062</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n119" target="n90">
+      <data key="e_id">13000861302504</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">140</data>
+      <data key="e_weight">31.5</data>
+    </edge>
+    <edge source="n0" target="n120">
+      <data key="e_id">13026031304302</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">8.5</data>
+    </edge>
+    <edge source="n23" target="n55">
+      <data key="e_id">15068071600600</data>
+      <data key="e_MINCOST">160</data>
+      <data key="e_MINTIME">745</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n76" target="n115">
+      <data key="e_id">13006071304237</data>
+      <data key="e_MINCOST">110</data>
+      <data key="e_MINTIME">510</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n0" target="n66">
+      <data key="e_id">13026031505304</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n119" target="n0">
+      <data key="e_id">13000861302603</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">39</data>
+    </edge>
+    <edge source="n76" target="n103">
+      <data key="e_id">13006071303700</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">450</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n9" target="n39">
+      <data key="e_id">13019021303106</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n9" target="n21">
+      <data key="e_id">13019021303403</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">15</data>
+    </edge>
+    <edge source="n42" target="n34">
+      <data key="e_id">15003051600303</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">49.5</data>
+    </edge>
+    <edge source="n35" target="n10">
+      <data key="e_id">15013031501402</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">45</data>
+      <data key="e_weight">426</data>
+    </edge>
+    <edge source="n89" target="n76">
+      <data key="e_id">13000601300607</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">390</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n0" target="n121">
+      <data key="e_id">13026031303809</data>
+      <data key="e_MINCOST">390</data>
+      <data key="e_MINTIME">1680</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n14" target="n34">
+      <data key="e_id">15018081600303</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">11.5</data>
+    </edge>
+    <edge source="n122" target="n123">
+      <data key="e_id">12002031200351</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">630</data>
+      <data key="e_weight">1.25</data>
+    </edge>
+    <edge source="n89" target="n77">
+      <data key="e_id">13000601301605</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n91" target="n93">
+      <data key="e_id">13023061303908</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n124" target="n0">
+      <data key="e_id">13004091302603</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">21</data>
+    </edge>
+    <edge source="n77" target="n103">
+      <data key="e_id">13016051303700</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n91" target="n0">
+      <data key="e_id">13023061302603</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">35.625</data>
+    </edge>
+    <edge source="n19" target="n23">
+      <data key="e_id">15004041506807</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">51</data>
+    </edge>
+    <edge source="n108" target="n118">
+      <data key="e_id">15010061503606</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">74</data>
+    </edge>
+    <edge source="n59" target="n73">
+      <data key="e_id">15011051502806</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n17" target="n55">
+      <data key="e_id">15060051600600</data>
+      <data key="e_MINCOST">120</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">27.5</data>
+    </edge>
+    <edge source="n67" target="n61">
+      <data key="e_id">15078051508357</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">80</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n125" target="n126">
+      <data key="e_id">27075032805703</data>
+      <data key="e_MINCOST">2</data>
+      <data key="e_MINTIME">8</data>
+      <data key="e_weight">186</data>
+    </edge>
+    <edge source="n127" target="n128">
+      <data key="e_id">42072054209409</data>
+      <data key="e_MINCOST">5</data>
+      <data key="e_MINTIME">20</data>
+      <data key="e_weight">50</data>
+    </edge>
+    <edge source="n11" target="n13">
+      <data key="e_id">15012041502103</data>
+      <data key="e_MINCOST">35</data>
+      <data key="e_MINTIME">135</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n90" target="n0">
+      <data key="e_id">13025041302603</data>
+      <data key="e_MINCOST">19.5</data>
+      <data key="e_MINTIME">75</data>
+      <data key="e_weight">17.5</data>
+    </edge>
+    <edge source="n15" target="n30">
+      <data key="e_id">15005031600279</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">5.5</data>
+    </edge>
+    <edge source="n77" target="n91">
+      <data key="e_id">13016051302306</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">49.25</data>
+    </edge>
+    <edge source="n77" target="n115">
+      <data key="e_id">13016051304237</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">20.375</data>
+    </edge>
+    <edge source="n0" target="n129">
+      <data key="e_id">13026031303957</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n10" target="n130">
+      <data key="e_id">15014021502004</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">32</data>
+    </edge>
+    <edge source="n130" target="n109">
+      <data key="e_id">15020041506401</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">37</data>
+    </edge>
+    <edge source="n4" target="n63">
+      <data key="e_id">13013081302207</data>
+      <data key="e_MINCOST">260</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n15" target="n55">
+      <data key="e_id">15005031600600</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">330</data>
+      <data key="e_weight">21</data>
+    </edge>
+    <edge source="n33" target="n67">
+      <data key="e_id">15059081507805</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">110</data>
+      <data key="e_weight">25</data>
+    </edge>
+    <edge source="n131" target="n0">
+      <data key="e_id">13006801302603</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">17.5</data>
+    </edge>
+    <edge source="n6" target="n58">
+      <data key="e_id">13008051302702</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">38</data>
+    </edge>
+    <edge source="n41" target="n90">
+      <data key="e_id">13008391302504</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">60.75</data>
+    </edge>
+    <edge source="n39" target="n44">
+      <data key="e_id">13031061303304</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">39.5</data>
+    </edge>
+    <edge source="n8" target="n17">
+      <data key="e_id">15048021506005</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">57</data>
+    </edge>
+    <edge source="n7" target="n25">
+      <data key="e_id">15039031505106</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">105</data>
+      <data key="e_weight">88.5</data>
+    </edge>
+    <edge source="n132" target="n133">
+      <data key="e_id">15083082102903</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">35</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n33" target="n23">
+      <data key="e_id">15059081506807</data>
+      <data key="e_MINCOST">130</data>
+      <data key="e_MINTIME">450</data>
+      <data key="e_weight">6.5</data>
+    </edge>
+    <edge source="n10" target="n34">
+      <data key="e_id">15014021600303</data>
+      <data key="e_MINCOST">210</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n105" target="n4">
+      <data key="e_id">13010011301308</data>
+      <data key="e_MINCOST">370</data>
+      <data key="e_MINTIME">1260</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n105" target="n62">
+      <data key="e_id">13010011304203</data>
+      <data key="e_MINCOST">300</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">3</data>
+    </edge>
+    <edge source="n76" target="n93">
+      <data key="e_id">13006071303908</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">270</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n89" target="n91">
+      <data key="e_id">13000601302306</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n6" target="n39">
+      <data key="e_id">13008051303106</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">100</data>
+      <data key="e_weight">58.5</data>
+    </edge>
+    <edge source="n6" target="n0">
+      <data key="e_id">13008051302603</data>
+      <data key="e_MINCOST">110</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">45</data>
+    </edge>
+    <edge source="n76" target="n4">
+      <data key="e_id">13006071301308</data>
+      <data key="e_MINCOST">440</data>
+      <data key="e_MINTIME">1410</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n105" target="n63">
+      <data key="e_id">13010011302207</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n4" target="n75">
+      <data key="e_id">13013081304062</data>
+      <data key="e_MINCOST">450</data>
+      <data key="e_MINTIME">1440</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n0" target="n44">
+      <data key="e_id">13026031303304</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">41</data>
+    </edge>
+    <edge source="n0" target="n134">
+      <data key="e_id">13026031303601</data>
+      <data key="e_MINCOST">300</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n58" target="n39">
+      <data key="e_id">13027021303106</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">36.5</data>
+    </edge>
+    <edge source="n76" target="n18">
+      <data key="e_id">13006071301209</data>
+      <data key="e_MINCOST">410</data>
+      <data key="e_MINTIME">1290</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n18" target="n75">
+      <data key="e_id">13012091304062</data>
+      <data key="e_MINCOST">420</data>
+      <data key="e_MINTIME">1320</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n105" target="n18">
+      <data key="e_id">13010011301209</data>
+      <data key="e_MINCOST">350</data>
+      <data key="e_MINTIME">1080</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n122" target="n135">
+      <data key="e_id">12002031200393</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">4.75</data>
+    </edge>
+    <edge source="n3" target="n1">
+      <data key="e_id">13000291304260</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">24</data>
+    </edge>
+    <edge source="n136" target="n0">
+      <data key="e_id">13005081302603</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">450</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n136" target="n21">
+      <data key="e_id">13005081303403</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">59</data>
+    </edge>
+    <edge source="n76" target="n75">
+      <data key="e_id">13006071304062</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">150.75</data>
+    </edge>
+    <edge source="n26" target="n41">
+      <data key="e_id">13006311300839</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">14</data>
+    </edge>
+    <edge source="n131" target="n21">
+      <data key="e_id">13006801303403</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n9" target="n104">
+      <data key="e_id">13019021302009</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">75</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n91" target="n103">
+      <data key="e_id">13023061303700</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n93" target="n75">
+      <data key="e_id">13039081304062</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">33.75</data>
+    </edge>
+    <edge source="n129" target="n120">
+      <data key="e_id">13039571304302</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">89</data>
+    </edge>
+    <edge source="n19" target="n112">
+      <data key="e_id">15004041502855</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">24.5</data>
+    </edge>
+    <edge source="n15" target="n17">
+      <data key="e_id">15005031506005</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">56</data>
+    </edge>
+    <edge source="n59" target="n14">
+      <data key="e_id">15011051501808</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">10</data>
+    </edge>
+    <edge source="n14" target="n22">
+      <data key="e_id">15018081507706</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">13</data>
+    </edge>
+    <edge source="n8" target="n33">
+      <data key="e_id">15048021505908</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">300</data>
+      <data key="e_weight">6.5</data>
+    </edge>
+    <edge source="n25" target="n66">
+      <data key="e_id">15051061505304</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">56</data>
+    </edge>
+    <edge source="n83" target="n137">
+      <data key="e_id">21050052109403</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">34.5</data>
+    </edge>
+    <edge source="n4" target="n91">
+      <data key="e_id">13013081302306</data>
+      <data key="e_MINCOST">310</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n4" target="n77">
+      <data key="e_id">13013081301605</data>
+      <data key="e_MINCOST">270</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n124" target="n121">
+      <data key="e_id">13004091303809</data>
+      <data key="e_MINCOST">250</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n18" target="n63">
+      <data key="e_id">13012091302207</data>
+      <data key="e_MINCOST">250</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">2</data>
+    </edge>
+    <edge source="n124" target="n134">
+      <data key="e_id">13004091303601</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">420</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n9" target="n120">
+      <data key="e_id">13019021304302</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">140</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n21" target="n120">
+      <data key="e_id">13034031304302</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">140</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n18" target="n91">
+      <data key="e_id">13012091302306</data>
+      <data key="e_MINCOST">280</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n4" target="n93">
+      <data key="e_id">13013081303908</data>
+      <data key="e_MINCOST">410</data>
+      <data key="e_MINTIME">1140</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n18" target="n93">
+      <data key="e_id">13012091303908</data>
+      <data key="e_MINCOST">370</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n15" target="n33">
+      <data key="e_id">15005031505908</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">110</data>
+      <data key="e_weight">27.5</data>
+    </edge>
+    <edge source="n4" target="n103">
+      <data key="e_id">13013081303700</data>
+      <data key="e_MINCOST">350</data>
+      <data key="e_MINTIME">960</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n89" target="n4">
+      <data key="e_id">13000601301308</data>
+      <data key="e_MINCOST">380</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n93" target="n115">
+      <data key="e_id">13039081304237</data>
+      <data key="e_MINCOST">90</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n21" target="n7">
+      <data key="e_id">13034031503903</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">105</data>
+      <data key="e_weight">30</data>
+    </edge>
+    <edge source="n122" target="n138">
+      <data key="e_id">12002031301803</data>
+      <data key="e_MINCOST">140</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">4</data>
+    </edge>
+    <edge source="n89" target="n18">
+      <data key="e_id">13000601301209</data>
+      <data key="e_MINCOST">350</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n4" target="n115">
+      <data key="e_id">13013081304237</data>
+      <data key="e_MINCOST">350</data>
+      <data key="e_MINTIME">900</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n91" target="n115">
+      <data key="e_id">13023061304237</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">21.125</data>
+    </edge>
+    <edge source="n92" target="n0">
+      <data key="e_id">13025531302603</data>
+      <data key="e_MINCOST">35</data>
+      <data key="e_MINTIME">90</data>
+      <data key="e_weight">112</data>
+    </edge>
+    <edge source="n21" target="n66">
+      <data key="e_id">13034031505304</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">6</data>
+    </edge>
+    <edge source="n18" target="n103">
+      <data key="e_id">13012091303700</data>
+      <data key="e_MINCOST">330</data>
+      <data key="e_MINTIME">840</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n18" target="n115">
+      <data key="e_id">13012091304237</data>
+      <data key="e_MINCOST">310</data>
+      <data key="e_MINTIME">780</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n119" target="n70">
+      <data key="e_id">13000861300102</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">50</data>
+      <data key="e_weight">56</data>
+    </edge>
+    <edge source="n5" target="n9">
+      <data key="e_id">13003001301902</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">150</data>
+      <data key="e_weight">7.5</data>
+    </edge>
+    <edge source="n104" target="n129">
+      <data key="e_id">13020091303957</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">25</data>
+      <data key="e_weight">49</data>
+    </edge>
+    <edge source="n21" target="n48">
+      <data key="e_id">13034031507979</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">100</data>
+      <data key="e_weight">4.5</data>
+    </edge>
+    <edge source="n10" target="n139">
+      <data key="e_id">15014021507904</data>
+      <data key="e_MINCOST">48</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">14</data>
+    </edge>
+    <edge source="n14" target="n65">
+      <data key="e_id">15018081504505</data>
+      <data key="e_MINCOST">20</data>
+      <data key="e_MINTIME">50</data>
+      <data key="e_weight">101</data>
+    </edge>
+    <edge source="n20" target="n33">
+      <data key="e_id">15031011505908</data>
+      <data key="e_MINCOST">40</data>
+      <data key="e_MINTIME">100</data>
+      <data key="e_weight">25</data>
+    </edge>
+    <edge source="n7" target="n66">
+      <data key="e_id">15039031505304</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">75</data>
+      <data key="e_weight">46</data>
+    </edge>
+    <edge source="n75" target="n62">
+      <data key="e_id">13040621304203</data>
+      <data key="e_MINCOST">420</data>
+      <data key="e_MINTIME">1020</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n76" target="n62">
+      <data key="e_id">13006071304203</data>
+      <data key="e_MINCOST">410</data>
+      <data key="e_MINTIME">990</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n136" target="n9">
+      <data key="e_id">13005081301902</data>
+      <data key="e_MINCOST">100</data>
+      <data key="e_MINTIME">240</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n131" target="n9">
+      <data key="e_id">13006801301902</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">12</data>
+    </edge>
+    <edge source="n134" target="n121">
+      <data key="e_id">13036011303809</data>
+      <data key="e_MINCOST">150</data>
+      <data key="e_MINTIME">360</data>
+      <data key="e_weight">14.5</data>
+    </edge>
+    <edge source="n14" target="n64">
+      <data key="e_id">15018081505809</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">124</data>
+    </edge>
+    <edge source="n62" target="n115">
+      <data key="e_id">13042031304237</data>
+      <data key="e_MINCOST">210</data>
+      <data key="e_MINTIME">480</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n103" target="n93">
+      <data key="e_id">13037001303908</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n103" target="n62">
+      <data key="e_id">13037001304203</data>
+      <data key="e_MINCOST">240</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n33" target="n17">
+      <data key="e_id">15059081506005</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">180</data>
+      <data key="e_weight">9</data>
+    </edge>
+    <edge source="n9" target="n129">
+      <data key="e_id">13019021303957</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">110</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n18" target="n77">
+      <data key="e_id">13012091301605</data>
+      <data key="e_MINCOST">250</data>
+      <data key="e_MINTIME">540</data>
+      <data key="e_weight">8</data>
+    </edge>
+    <edge source="n89" target="n62">
+      <data key="e_id">13000601304203</data>
+      <data key="e_MINCOST">280</data>
+      <data key="e_MINTIME">600</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n93" target="n62">
+      <data key="e_id">13039081304203</data>
+      <data key="e_MINCOST">340</data>
+      <data key="e_MINTIME">720</data>
+      <data key="e_weight">11</data>
+    </edge>
+    <edge source="n3" target="n62">
+      <data key="e_id">13000291304203</data>
+      <data key="e_MINCOST">10</data>
+      <data key="e_MINTIME">20</data>
+      <data key="e_weight">136</data>
+    </edge>
+    <edge source="n119" target="n26">
+      <data key="e_id">13000861300631</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">50</data>
+      <data key="e_weight">10</data>
+    </edge>
+    <edge source="n136" target="n131">
+      <data key="e_id">13005081300680</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">16</data>
+    </edge>
+    <edge source="n62" target="n1">
+      <data key="e_id">13042031304260</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">30</data>
+    </edge>
+    <edge source="n73" target="n22">
+      <data key="e_id">15028061507706</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">7</data>
+    </edge>
+    <edge source="n65" target="n64">
+      <data key="e_id">15045051505809</data>
+      <data key="e_MINCOST">15</data>
+      <data key="e_MINTIME">30</data>
+      <data key="e_weight">102</data>
+    </edge>
+    <edge source="n9" target="n47">
+      <data key="e_id">13019021304401</data>
+      <data key="e_MINCOST">25</data>
+      <data key="e_MINTIME">45</data>
+      <data key="e_weight">54</data>
+    </edge>
+    <edge source="n89" target="n93">
+      <data key="e_id">13000601303908</data>
+      <data key="e_MINCOST">70</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n89" target="n115">
+      <data key="e_id">13000601304237</data>
+      <data key="e_MINCOST">80</data>
+      <data key="e_MINTIME">120</data>
+      <data key="e_weight">17.75</data>
+    </edge>
+    <edge source="n104" target="n120">
+      <data key="e_id">13020091304302</data>
+      <data key="e_MINCOST">30</data>
+      <data key="e_MINTIME">45</data>
+      <data key="e_weight">84</data>
+    </edge>
+    <edge source="n89" target="n103">
+      <data key="e_id">13000601303700</data>
+      <data key="e_MINCOST">50</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">20.75</data>
+    </edge>
+    <edge source="n103" target="n115">
+      <data key="e_id">13037001304237</data>
+      <data key="e_MINCOST">60</data>
+      <data key="e_MINTIME">60</data>
+      <data key="e_weight">29.75</data>
+    </edge>
+  </graph>
+</graphml>

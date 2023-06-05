@@ -40,10 +40,8 @@ if __name__ == "__main__":
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     model = Net().to(device)
     data = data.to(device)
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.01,
-                                 weight_decay=5e-4)
-    x, edge_index, edge_weight, target = \
-        data.x, data.edge_index, data.edge_weight, data.y
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.01, weight_decay=5e-4)
+    x, edge_index, edge_weight, target = data.x, data.edge_index, data.edge_weight, data.y
 
     model.train()
     for epoch in range(1, 500):
@@ -58,10 +56,8 @@ if __name__ == "__main__":
     predicted_target = log_logits.argmax(dim=1)
 
     explainer = Explainer(
-        model=model, algorithm=PGMExplainer(), node_mask_type='attributes',
-        explanation_type='phenomenon',
-        model_config=ModelConfig(mode='multiclass_classification',
-                                 task_level='node', return_type='raw'))
+        model=model, algorithm=PGMExplainer(), node_mask_type='attributes', explanation_type='phenomenon',
+        model_config=ModelConfig(mode='multiclass_classification', task_level='node', return_type='raw'))
     node_idx = 100
     explanation = explainer(x=data.x, edge_index=edge_index, index=node_idx,
                             target=predicted_target, edge_weight=edge_weight)
