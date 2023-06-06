@@ -135,6 +135,14 @@ for rep in range(reps):
             }
             results.append(result)
 
+        # Salvar o objeto explainer em um arquivo
+        with open(f'explainer_{explanation_type}.pkl', 'wb') as file:
+            pickle.dump(explainer, file)
+
+        # Salvar o objeto explanation em um arquivo
+        with open(f'explanation_{explanation_type}.pkl', 'wb') as file:
+            pickle.dump(explanation, file)
+
     df_results = pd.DataFrame(results)
     print()
     print(df_results)
@@ -149,3 +157,12 @@ for rep in range(reps):
     # plt.ylabel('Significância')
     # plt.title(f'Gráfico de Dispersão - Significância dos Nós em relação ao Nó {node_idx}')
     # plt.show()
+
+
+# Carregar o objeto explainer do arquivo
+with open(f'explainer_{explanation_type}.pkl', 'rb') as file:
+    explainer = pickle.load(file)
+
+# Carregar o objeto explanation do arquivo
+with open(f'explanation_{explanation_type}.pkl', 'rb') as file:
+    explanation = pickle.load(file)
