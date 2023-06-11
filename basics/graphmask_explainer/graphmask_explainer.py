@@ -59,8 +59,10 @@ node_index = 10
 # node_index = torch.tensor([10, 20])
 explanation = explainer(data.x, data.edge_index, index=node_index)
 print(f'Generated explanations in {explanation.available_explanations}')
-explanation.visualize_graph("graph_model.pdf")
-explanation.visualize_feature_importance("feature_importance_model.png", top_k=10)
+path = f'subgraph_node_{node_index}.png'
+explanation.visualize_graph(path)
+path = f'feature_importance_node_{node_index}.png'
+explanation.visualize_feature_importance(path, top_k=10)
 
 #
 # # GAT Node Classification =====================================================

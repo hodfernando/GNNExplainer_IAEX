@@ -55,10 +55,10 @@ node_index = 10
 explanation = explainer(data.x, data.edge_index, index=node_index)
 print(f'Generated explanations in {explanation.available_explanations}')
 
-path = 'feature_importance.png'
+path = f'feature_importance_node_{node_index}.png'
 explanation.visualize_feature_importance(path, top_k=10)
 print(f"Feature importance plot has been saved to '{path}'")
 
-path = 'subgraph.pdf'
+path = f'subgraph_node_{node_index}.png'
 explanation.visualize_graph(path)
 print(f"Subgraph visualization plot has been saved to '{path}'")

@@ -96,11 +96,11 @@ explanation_model = explainer_model(
 )
 print(f'Generated model explanations in {explanation_model.available_explanations}')
 
-path = 'feature_importance_model.png'
+path = f'feature_importance_model_edge_{edge_label_index}.png'
 explanation_model.visualize_feature_importance(path, top_k=10)
 print(f"Feature importance plot has been saved to '{path}'")
 
-path = 'subgraph_model.pdf'
+path = f'subgraph_model_edge_{edge_label_index}.png'
 explanation_model.visualize_graph(path)
 print(f"Subgraph visualization plot has been saved to '{path}'")
 
@@ -125,10 +125,10 @@ explanation_phenomenon = explainer_phenomenon(
 available_explanations = explanation_phenomenon.available_explanations
 print(f'Generated phenomenon explanations in {available_explanations}')
 
-path = 'feature_importance_phenomenon.png'
+path = f'feature_importance_phenomenon_edge_{edge_label_index}.png'
 explanation_phenomenon.visualize_feature_importance(path, top_k=10)
 print(f"Feature importance plot has been saved to '{path}'")
 
-path = 'subgraph_phenomenon.pdf'
+path = f'subgraph_phenomenon_edge_{edge_label_index}.png'
 explanation_phenomenon.visualize_graph(path)
 print(f"Subgraph visualization plot has been saved to '{path}'")
