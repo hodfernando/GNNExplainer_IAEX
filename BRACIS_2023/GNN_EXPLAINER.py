@@ -28,6 +28,8 @@ train_ratio = 0.8
 mydir = os.getcwd()
 Path(mydir + '/save/class/').mkdir(parents=True, exist_ok=True)
 files_class = os.listdir(mydir + '/save/class/')
+results_path = '/results/Explainer/GNNExplainer/'
+Path(mydir + results_path).mkdir(parents=True, exist_ok=True)
 
 # Carregando Dataset
 filename_dataset = f'DATASET_lags_{lags}_datasets_{datasets}_weight_{weight}_out_{out}_'
@@ -112,9 +114,9 @@ for rep in range(reps):
                 preds.append((explanation.subgraph(
                     subset).target.squeeze() * datasetLoader.std_stacked_dataset[subset]) +
                              datasetLoader.mean_stacked_dataset[subset])
-
-                # explanation.visualize_graph('subgraph.png')
-                # explanation.visualize_feature_importance('feature_importance.png', top_k=10)
+                # try:
+                #     explanation.visualize_graph('subgraph.png')
+                #     explanation.visualize_feature_importance('feature_importance.png', top_k=10)
 
                 mae += mean_absolute_error(targets[time], preds[time])
                 mse += mean_squared_error(targets[time], preds[time])
@@ -135,18 +137,18 @@ for rep in range(reps):
             }
             results.append(result)
 
-        # Salvar o objeto explainer em um arquivo
-        with open(f'explainer_{explanation_type}.pkl', 'wb') as file:
-            pickle.dump(explainer, file)
+            # Salvar o objeto explainer em um arquivo
+            with open(mydir + results_path + f'explainer_{explanation_type}_{node_index}.pkl', 'wb') as file:
+                pickle.dump(explainer, file)
 
-        # Salvar o objeto explanation em um arquivo
-        with open(f'explanation_{explanation_type}.pkl', 'wb') as file:
-            pickle.dump(explanation, file)
+            # Salvar o objeto explanation em um arquivo
+            with open(mydir + results_path + f'explanation_{explanation_type}_{node_index}.pkl', 'wb') as file:
+                pickle.dump(explanation, file)
 
     df_results = pd.DataFrame(results)
     print()
     print(df_results)
-    df_results.to_csv('explanation.csv')
+    df_results.to_csv(mydir + results_path + 'explanation.csv')
 
     # nodes = np.arange(significance.shape[0])
     #
@@ -158,11 +160,10 @@ for rep in range(reps):
     # plt.title(f'Gráfico de Dispersão - Significância dos Nós em relação ao Nó {node_idx}')
     # plt.show()
 
-
-# Carregar o objeto explainer do arquivo
-with open(f'explainer_{explanation_type}.pkl', 'rb') as file:
-    explainer = pickle.load(file)
-
-# Carregar o objeto explanation do arquivo
-with open(f'explanation_{explanation_type}.pkl', 'rb') as file:
-    explanation = pickle.load(file)
+# # Carregar o objeto explainer do arquivo
+# with open(mydir + results_path + f'explainer_{explanation_type}.pkl', 'rb') as file:
+#     explainer = pickle.load(file)
+#
+# # Carregar o objeto explanation do arquivo
+# with open(mydir + results_path + f'explanation_{explanation_type}.pkl', 'rb') as file:
+#     explanation = pickle.load(file)
