@@ -114,9 +114,6 @@ for rep in range(reps):
                 preds.append((explanation.subgraph(
                     subset).target.squeeze() * datasetLoader.std_stacked_dataset[subset]) +
                              datasetLoader.mean_stacked_dataset[subset])
-                # try:
-                #     explanation.visualize_graph('subgraph.png')
-                #     explanation.visualize_feature_importance('feature_importance.png', top_k=10)
 
                 mae += mean_absolute_error(targets[time], preds[time])
                 mse += mean_squared_error(targets[time], preds[time])
@@ -136,6 +133,14 @@ for rep in range(reps):
                 'R²': r2
             }
             results.append(result)
+
+            path = f'feature_importance_{explanation_type}_node_{node_index}.png'
+            explanation.visualize_feature_importance(path, top_k=10)
+            print(f"Feature importance plot has been saved to '{path}'")
+
+            path = f'subgraph_{explanation_type}_node_{node_index}.png'
+            explanation.visualize_graph(mydir + results_path + path)
+            print(f"Subgraph visualization plot has been saved to '{path}'")
 
             # Salvar o objeto explainer em um arquivo
             with open(mydir + results_path + f'explainer_{explanation_type}_{node_index}.pkl', 'wb') as file:
@@ -160,10 +165,10 @@ for rep in range(reps):
     # plt.title(f'Gráfico de Dispersão - Significância dos Nós em relação ao Nó {node_idx}')
     # plt.show()
 
-# # Carregar o objeto explainer do arquivo
-# with open(mydir + results_path + f'explainer_{explanation_type}.pkl', 'rb') as file:
-#     explainer = pickle.load(file)
-#
-# # Carregar o objeto explanation do arquivo
-# with open(mydir + results_path + f'explanation_{explanation_type}.pkl', 'rb') as file:
-#     explanation = pickle.load(file)
+# Carregar o objeto explainer do arquivo
+with open(mydir + results_path + f'explainer_{explanation_type}_{node_index}.pkl', 'rb') as file:
+    explainer = pickle.load(file)
+
+# Carregar o objeto explanation do arquivo
+with open(mydir + results_path + f'explanation_{explanation_type}_{node_index}.pkl', 'rb') as file:
+    explanation = pickle.load(file)

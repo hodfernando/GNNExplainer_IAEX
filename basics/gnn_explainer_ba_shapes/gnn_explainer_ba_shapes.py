@@ -93,4 +93,12 @@ for explanation_type in ['phenomenon', 'model']:
         preds.append(explanation.edge_mask[edge_mask].cpu())
 
     auc = roc_auc_score(torch.cat(targets), torch.cat(preds))
-    print(f'Mean ROC AUC (explanation type {explanation_type:10}): {auc:.4f}')
+    print(f'Mean ROC AUC (explanation type {explanation_type}): {auc:.4f}')
+
+    # path = f'feature_importance_{explanation_type}_edge_{node_index}.png'
+    # explanation.visualize_feature_importance(path, top_k=10)
+    # print(f"Feature importance plot has been saved to '{path}'")
+
+    path = f'subgraph_{explanation_type}_edge_{node_index}.png'
+    explanation.visualize_graph(path)
+    print(f"Subgraph visualization plot has been saved to '{path}'")

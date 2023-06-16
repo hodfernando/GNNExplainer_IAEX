@@ -60,7 +60,7 @@ for rep in range(reps):
         model = LSTMGCN(node_features=lags, filters=128)
 
     epochs = 10
-    lr = 0.01
+    lr = 0.001
     explanation_type = 'phenomenon'
 
     explainer = Explainer(
