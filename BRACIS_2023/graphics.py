@@ -6,6 +6,7 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 from torch_geometric_temporal import temporal_signal_split
+from BRACIS_2023.map_rmse import map_rmse
 from map_metrics import map_metrics
 from scipy.stats import ttest_rel
 
@@ -285,7 +286,7 @@ plt.tick_params(axis='both', which='major', labelsize=16, )
 plt.axis('equal')
 plt.title('Predicted vs True', fontsize=32)
 # plt.grid(visible=None)
-ax1.annotate('p-value = {:.1e}'.format(p_value), xy=(p2, 0.1*p1), fontsize=28,)
+ax1.annotate('p-value = {:.1e}'.format(p_value), xy=(p2, 0.1 * p1), fontsize=28, )
 plt.tight_layout()
 plt.show()
 
@@ -301,3 +302,12 @@ fig1.savefig(mydir + f'/results/{nameModel}/{datasets}/TruePredict_day_29_11_202
 #               label="pred_prophet")
 # plt.legend(title=nomemun[city])
 # plt.show()
+
+
+# plotando mapa com RMSE por cidade
+nameModel = 'GCLSTM'
+rmse_gclstm = np.load(mydir + f'\\results\\{nameModel}\\{datasets}\\metric_RMSE_by_city_{datasets}.npy')
+map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gclstm.mean(axis=0), datasetLoader=datasetLoader)
+nameModel = 'GCRN'
+rmse_gcrn = np.load(mydir + f'\\results\\{nameModel}\\{datasets}\\metric_RMSE_by_city_{datasets}.npy')
+map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gcrn.mean(axis=0), datasetLoader=datasetLoader)
