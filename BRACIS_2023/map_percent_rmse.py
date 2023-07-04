@@ -10,7 +10,7 @@ import pandas as pd
 import plotly.express as px
 
 
-def map_percent_rmse(results_path, avg, datasetLoader):
+def map_percent_rmse(results_path, avg, datasetLoader, avg_percent_error, threshold):
     mydir = os.getcwd()
 
     # Todos os grafos criados
@@ -57,13 +57,17 @@ def map_percent_rmse(results_path, avg, datasetLoader):
 
     li1 = np.array(list_id)
     li2 = np.array(df.geocode.to_list())
+    li2_threshold = li2[np.argwhere(avg_percent_error < threshold)].flatten()
     dif1 = np.setdiff1d(li1, li2, assume_unique=True)  # 184 retirar do li1
     dif2 = np.setdiff1d(li2, li1, assume_unique=True)  # 5 retirar do li2
     # temp3 = np.concatenate((dif1, dif2))  # 189
 
+    concatenated_array = np.concatenate((dif1, li2_threshold))
+    unique_values = np.unique(concatenated_array)
+
     ref_index = 0
     count = 0
-    for i in dif1:
+    for i in unique_values:
         for j in range(ref_index, counties["features"].__len__()):
             if counties["features"][j]['properties']['id'] == i:
                 del counties["features"][j]  # deleta os elementos
@@ -71,7 +75,10 @@ def map_percent_rmse(results_path, avg, datasetLoader):
                 break
             ref_index += 1
 
-    df = df.drop([df[df.geocode == _].index[0] for _ in dif2], )  # deleta os elementos
+    concatenated_array = np.concatenate((dif2, li2_threshold))
+    unique_values = np.unique(concatenated_array)
+
+    df = df.drop([df[df.geocode == _].index[0] for _ in unique_values], )  # deleta os elementos
     df = df.reset_index(drop=True)
 
     for feature in counties['features']:

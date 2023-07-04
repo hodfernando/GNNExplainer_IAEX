@@ -4,6 +4,7 @@ import pickle
 import numpy as np
 from BRACIS_2023.map_percent_rmse import map_percent_rmse
 from BRACIS_2023.map_rmse import map_rmse
+import matplotlib.pyplot as plt
 
 lags = 14
 datasets = '2020-2022'
@@ -302,8 +303,6 @@ print("Separando dataset em teste e treinamento")
 # plotando mapa com RMSE por cidade
 nameModel = 'GCLSTM'
 rmse_gclstm = np.load(mydir + f'\\results\\{nameModel}\\{datasets}\\metric_RMSE_by_city_{datasets}.npy')
-map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gclstm.mean(axis=0),
-         datasetLoader=datasetLoader)
 
 y_real_no_norm = np.load(mydir + f'\\results\\{nameModel}\\{datasets}\\y_real_no_norm_{datasets}.npy')
 y_real_mean_test = np.mean(y_real_no_norm, axis=1)
@@ -312,37 +311,45 @@ percent_error_y_real_rmse_gclstm = np.divide(np.subtract(y_real_mean_test, rmse_
 
 avg_percent_error_y_real_rmse_gclstm = percent_error_y_real_rmse_gclstm.mean(axis=0)
 
-map_percent_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', avg=avg_percent_error_y_real_rmse_gclstm,
-                 datasetLoader=datasetLoader)
+# Errou 90%
+np.argwhere(avg_percent_error_y_real_rmse_gclstm < 0.1).shape  # 4
+# Errou 50%
+np.argwhere(avg_percent_error_y_real_rmse_gclstm < 0.5).shape  # 12
+# Errou 30%
+np.argwhere(avg_percent_error_y_real_rmse_gclstm < 0.7).shape  # 29
+# Errou 20%
+np.argwhere(avg_percent_error_y_real_rmse_gclstm < 0.8).shape  # 372
 
-# erros maiores que 10%
-np.argwhere(avg_percent_error_y_real_rmse_gclstm > 0.1).shape
-# erros maiores que 20%
-np.argwhere(avg_percent_error_y_real_rmse_gclstm > 0.2).shape
-# erros maiores que 50%
-np.argwhere(avg_percent_error_y_real_rmse_gclstm > 0.5).shape
-# erros maiores que 90%
-np.argwhere(avg_percent_error_y_real_rmse_gclstm > .9).shape
+threshold = 0.7
+
+map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gclstm.mean(axis=0),
+         datasetLoader=datasetLoader, avg_percent_error=avg_percent_error_y_real_rmse_gclstm, threshold=threshold)
+map_percent_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', avg=avg_percent_error_y_real_rmse_gclstm,
+                 datasetLoader=datasetLoader, avg_percent_error=avg_percent_error_y_real_rmse_gclstm,
+                 threshold=threshold)
+
+#
 
 nameModel = 'GCRN'
 rmse_gcrn = np.load(mydir + f'\\results\\{nameModel}\\{datasets}\\metric_RMSE_by_city_{datasets}.npy')
-map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gcrn.mean(axis=0), datasetLoader=datasetLoader)
 
 percent_error_y_real_rmse_gcrn = np.divide(np.subtract(y_real_mean_test, rmse_gcrn), y_real_mean_test)
 
 avg_percent_error_y_real_rmse_gcrn = percent_error_y_real_rmse_gcrn.mean(axis=0)
 
-map_percent_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', avg=avg_percent_error_y_real_rmse_gcrn,
-                 datasetLoader=datasetLoader)
+# Errou 90%
+np.argwhere(avg_percent_error_y_real_rmse_gcrn < 0.1).shape  # 4
+# Errou 50%
+np.argwhere(avg_percent_error_y_real_rmse_gcrn < 0.5).shape  # 11
+# Errou 30%
+np.argwhere(avg_percent_error_y_real_rmse_gcrn < 0.7).shape  # 23
+# Errou 20%
+np.argwhere(avg_percent_error_y_real_rmse_gcrn < 0.8).shape  # 232
 
-# erros maiores que 10%
-np.argwhere(avg_percent_error_y_real_rmse_gcrn > 0.1).shape
-# erros maiores que 20%
-np.argwhere(avg_percent_error_y_real_rmse_gcrn > 0.2).shape
-# erros maiores que 50%
-np.argwhere(avg_percent_error_y_real_rmse_gcrn > 0.5).shape
-# erros maiores que 90%
-np.argwhere(avg_percent_error_y_real_rmse_gcrn > .9).shape
+map_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', rmse=rmse_gcrn.mean(axis=0), datasetLoader=datasetLoader,
+         avg_percent_error=avg_percent_error_y_real_rmse_gcrn, threshold=threshold)
+map_percent_rmse(results_path=f'\\results\\{nameModel}\\{datasets}\\', avg=avg_percent_error_y_real_rmse_gcrn,
+                 datasetLoader=datasetLoader, avg_percent_error=avg_percent_error_y_real_rmse_gcrn, threshold=threshold)
 
 # SP/SP - Sudeste - 3550308
 # Manaus/AM - Norte - 1302603
@@ -358,4 +365,20 @@ avg_percent_error_y_real_rmse_gcrn[[3482, 3691, 4383, 5046]]
 NOMEMUN = np.array(datasetLoader.NOMEMUN)
 NOMEMUN[np.argwhere(avg_percent_error_y_real_rmse_gclstm > 0.5)]
 
-# todos em tocantins
+# Criar uma lista com as duas variáveis
+data = [avg_percent_error_y_real_rmse_gcrn[np.argwhere(avg_percent_error_y_real_rmse_gcrn > 0.1)].flatten(),
+        avg_percent_error_y_real_rmse_gclstm[np.argwhere(avg_percent_error_y_real_rmse_gclstm > 0.1)].flatten()]
+
+# Criar o boxplot
+plt.boxplot(data)
+
+# Configurar rótulos e título do gráfico
+plt.xlabel('Variáveis')
+plt.ylabel('Valor')
+plt.title('Boxplot das variáveis % de acerto GCRN e % de acerto GCLSTM')
+
+# Configurar os rótulos do eixo x
+plt.xticks([1, 2], ['GCRN', 'GCLSTM'])
+
+# Exibir o gráfico
+plt.show()
