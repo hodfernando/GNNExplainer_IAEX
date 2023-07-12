@@ -84,7 +84,8 @@ data = pd.DataFrame()
 
 saida = 'time'
 for metric in metrics:
-    df = pd.read_csv(mydir + f'/centralidades/grafo_completo/{saida}/' + '/' + metric + '.csv', delimiter=';', header=None, )
+    df = pd.read_csv(mydir + f'/centralidades/grafo_completo/{saida}/' + '/' + metric + '.csv', delimiter=';',
+                     header=None, )
     df.columns = ['id', 'city_code', metric]
     if (data.columns.shape[0] == 0):
         data = df.copy()
