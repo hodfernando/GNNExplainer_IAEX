@@ -5,6 +5,10 @@ import torch.nn as nn
 from dgl.data import CoraGraphDataset
 from dgl.nn import GNNExplainer
 
+import numpy as np
+import pandas as pd
+from tabulate import tabulate
+
 # Load dataset
 data = CoraGraphDataset()
 g = data[0]
@@ -12,11 +16,13 @@ features = g.ndata['feat']
 labels = g.ndata['label']
 train_mask = g.ndata['train_mask']
 
+
 # Define a model
 class Model(nn.Module):
     def __init__(self, in_feats, out_feats):
         super(Model, self).__init__()
         self.linear = nn.Linear(in_feats, out_feats)
+
     def forward(self, graph, feat, eweight=None):
         with graph.local_scope():
             feat = self.linear(feat)
@@ -27,6 +33,7 @@ class Model(nn.Module):
                 graph.edata['w'] = eweight
                 graph.update_all(fn.u_mul_e('h', 'w', 'm'), fn.sum('m', 'h'))
             return graph.ndata['h']
+
 
 # Train the model
 model = Model(features.shape[1], data.num_classes)
@@ -50,3 +57,28 @@ sg.ndata[dgl.NID]
 sg.edata[dgl.EID]
 feat_mask
 edge_mask
+
+# Calcular os valores de std, mean, max e min para feat_mask
+feat_mask_std = np.std(np.array(feat_mask))
+feat_mask_mean = np.mean(np.array(feat_mask))
+feat_mask_max = np.max(np.array(feat_mask))
+feat_mask_min = np.min(np.array(feat_mask))
+
+# Calcular os valores de std, mean, max e min para edge_mask
+edge_mask_std = np.std(np.array(edge_mask))
+edge_mask_mean = np.mean(np.array(edge_mask))
+edge_mask_max = np.max(np.array(edge_mask))
+edge_mask_min = np.min(np.array(edge_mask))
+
+# Criar o dataframe com os valores
+df = pd.DataFrame({'Variable': ['feat_mask', 'edge_mask'],
+                   'std': [feat_mask_std, edge_mask_std],
+                   'mean': [feat_mask_mean, edge_mask_mean],
+                   'max': [feat_mask_max, edge_mask_max],
+                   'min': [feat_mask_min, edge_mask_min]})
+
+# Converter o dataframe em tabela LaTeX
+table = tabulate(df, headers='keys', tablefmt='latex', floatfmt='.3f')
+
+# Exibir a tabela LaTeX
+print(table)
